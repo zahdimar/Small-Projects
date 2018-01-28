@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\zahdi\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_SpaceEngineers.238253911.00" t="ExcludeRecursive" />
+    <e p="G:\repos\smallprojects\SpaceEngineers" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SpaceEngineers" t="IncludeRecursive">
+        <e p="AutoDoorCloser.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RemoteTransmission.cs" t="Include" />
+        <e p="SpaceEngineers.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SpaceEngineers.sln" t="IncludeFlat" />
+    </e>
+  </component>
+  <component name="RiderRiderContentModelStore">
+    <excludedPaths />
+  </component>
+</project>
