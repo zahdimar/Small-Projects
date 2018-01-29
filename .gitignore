@@ -1,4 +1,5 @@
-SpaceEngineers/.vs
-SpaceEngineers/.idea
+.vs
+.idea
 SpaceEngineers/SpaceEngineers/obj
 SpaceEngineers/SpaceEngineers/bin
+TelegramBot/config.py
