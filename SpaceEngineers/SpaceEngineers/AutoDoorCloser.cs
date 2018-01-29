@@ -1,25 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using Sandbox.Game.GameSystems;
+﻿using System.Collections.Generic;
 using Sandbox.ModAPI.Ingame;
 using IMyDoor = Sandbox.ModAPI.IMyDoor;
-using IMyGridTerminalSystem = Sandbox.ModAPI.IMyGridTerminalSystem;
 using IMyTerminalBlock = Sandbox.ModAPI.IMyTerminalBlock;
 
-namespace Scripts
-{
-    public class AutoDoorCloser
-    {
-        private void Echo(string message) {
-            Console.WriteLine(message);
-        }
-        
-        readonly IMyGridTerminalSystem GridTerminalSystem = new MyGridTerminalSystem();
-
-        
-        
-        
-        
+namespace Scripts {
+    public sealed class AutoDoorCloser: MyGridProgram {
         /*
         [Close] - door will be closed in 3 cycles
         [Close time = 5] - door wil closed in 5 cycles */
@@ -136,9 +121,5 @@ namespace Scripts
                 return storedDoors.Count;
             }
         }
-
-
-
-
     }
 }
