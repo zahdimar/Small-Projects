@@ -1,5 +1,5 @@
 .vs
 .idea
-SpaceEngineers/SpaceEngineers/obj
-SpaceEngineers/SpaceEngineers/bin
+obj
+bin
 TelegramBot/config.py
