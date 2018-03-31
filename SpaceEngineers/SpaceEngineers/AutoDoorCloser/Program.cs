@@ -3,8 +3,8 @@ using Sandbox.ModAPI.Ingame;
 using IMyDoor = Sandbox.ModAPI.IMyDoor;
 using IMyTerminalBlock = Sandbox.ModAPI.IMyTerminalBlock;
 
-namespace Scripts {
-    public sealed class AutoDoorCloser: MyGridProgram {
+namespace SpaceEngineers.AutoDoorCloser {
+    public sealed class Program: MyGridProgram {
         /*
         [Close] - door will be closed in 3 cycles
         [Close time = 5] - door wil closed in 5 cycles */
@@ -13,19 +13,11 @@ namespace Scripts {
         private const string MarkerWord = "Close"; //Keyword to work with autoclosed doors
 
         private DoorManager doorManager;
-
-        public void Main(string argument) {
-            if (doorManager == null || argument.Contains("Restart")) {
-                doorManager = new DoorManager(GridTerminalSystem);
-            }
-            var openedDoorsCount = doorManager.Update();
-            Echo($"Processed doors count: {openedDoorsCount}");
-        }
-
+        
         public class Door {
             private readonly IMyDoor door;
             private int howLongDoorIsOpen;
-            public readonly int timeToClose;
+            private readonly int timeToClose;
 
             public Door(IMyDoor door, int timeToClose = 3) {
                 this.door = door;
@@ -33,16 +25,14 @@ namespace Scripts {
                 howLongDoorIsOpen = 0;
             }
 
-            public void Close() {
-                door.GetActionWithName("Open_Off").Apply(door);
-            }
+            public void Close() => door.GetActionWithName("Open_Off").Apply(door);
 
-            public void Open() {
-                door.GetActionWithName("Open_On").Apply(door);
-            }
+            public void Open() => door.GetActionWithName("Open_On").Apply(door);
 
             public bool IsEqualsTo(IMyDoor anotherDoor) => door.GetId() == anotherDoor.GetId();
+
             public bool IsOpen => door.Status == DoorStatus.Open;
+
             public long GetDoorId => door.GetId();
 
             public void Update() {
@@ -58,13 +48,21 @@ namespace Scripts {
                 }
             }
         }
+        
+        public void Main(string argument) {
+            if (doorManager == null || argument.Contains("Restart")) {
+                doorManager = new DoorManager(GridTerminalSystem);
+            }
+            var openedDoorsCount = doorManager.Update();
+            Echo($"Processed doors count: {openedDoorsCount}");
+        }
 
         public interface IDoorManager {
             IEnumerable<IMyDoor> GetAllOpenedAutomatedDoors();
             int Update();
         }
 
-        public class DoorManager : IDoorManager {
+        public sealed class DoorManager : IDoorManager {
             private readonly List<Door> storedDoors = new List<Door>();
             private readonly IMyGridTerminalSystem gts;
             private const string TimeToClosePattern = @"time\s*=\s*(\d+)";
@@ -75,15 +73,15 @@ namespace Scripts {
 
             public int GetStoredDoorsCount => storedDoors.Count;
 
-            public virtual IEnumerable<IMyDoor> GetAllOpenedAutomatedDoors() {
+            public IEnumerable<IMyDoor> GetAllOpenedAutomatedDoors() {
                 var terminalDoors = new List<IMyTerminalBlock>();
-                gts.GetBlocksOfType<IMyTerminalBlock>(terminalDoors, IsAutoclosedDoor);
+                gts.GetBlocksOfType(terminalDoors, IsAutoclosedDoor);
                 var openedDoors = new List<IMyDoor>();
                 terminalDoors.ForEach(x => openedDoors.Add(x as IMyDoor));
                 return openedDoors;
             }
 
-            public static System.Text.RegularExpressions.Match Parse(string inputLine, string pattern){
+            private static System.Text.RegularExpressions.Match Parse(string inputLine, string pattern){
                 return System.Text.RegularExpressions.Regex.Match(inputLine, pattern);
             }
 
