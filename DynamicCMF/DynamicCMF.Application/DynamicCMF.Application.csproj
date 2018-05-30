@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DynamicCMF.Client\DynamicCMF.Client.csproj" />
+    <ProjectReference Include="..\DynamicCMF.Domain\DynamicCMF.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
