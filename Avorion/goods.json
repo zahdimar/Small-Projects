@@ -1,135 +1,2018 @@
-[{  "Name": "Acid",  "Volume": "1",  "AvgPrice": "402",  "SoldBy":["Chemicals Factory", "Rubber Factory"],  "BoughtBy":["Explosive Charge Factory", "Paint Manufacturer"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Acron Drug",  "Volume": "0.1",  "AvgPrice": "6000",  "SoldBy":[""],  "BoughtBy":[""],  "Illegal":"yes",  "Dangerous": "no" },
-{  "Name": "Adhesive",  "Volume": "0.25",  "AvgPrice": "402",  "SoldBy":["Chemicals Factory"],  "BoughtBy":["Ammunition Factory", "Ammunition S Factory", "Explosive Charge Factory", "High Pressure Tube Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Aluminium",  "Volume": "1",  "AvgPrice": "200",  "SoldBy":["Aluminium Mine"],  "BoughtBy":["Ammunition Factory", "Ammunition S Factory", "Gun Factory", "High Pressure Tube Factory", "Laser Head Factory", "Servo Factory", "Steel Tube Factory", "Tools Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Ammunition",  "Volume": "3",  "AvgPrice": "3786",  "SoldBy":["Ammunition Factory"],  "BoughtBy":["Gun Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Ammunition L",  "Volume": "2.5",  "AvgPrice": "422",  "SoldBy":["Ammunition Factory", "Ammunition S Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Ammunition M",  "Volume": "1.5",  "AvgPrice": "422",  "SoldBy":["Ammunition Factory", "Ammunition S Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Ammunition S",  "Volume": "0.5",  "AvgPrice": "422",  "SoldBy":["Ammunition Factory", "Ammunition S Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Anti-Grav Generator",  "Volume": "2.5",  "AvgPrice": "71632",  "SoldBy":["Anti-Grav Generator Factory"],  "BoughtBy":["Research Station"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Antigrav Unit",  "Volume": "2.5",  "AvgPrice": "25391",  "SoldBy":["Antigrav Unit Factory"],  "BoughtBy":["Anti-Grav Generator Factory", "Body Armor Factory", "Teleporter Factory", "Vehicle Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Beer",  "Volume": "0.5",  "AvgPrice": "216",  "SoldBy":["Brewery"],  "BoughtBy":["Casino"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Bio Gas",  "Volume": "1",  "AvgPrice": "213",  "SoldBy":["Cattle Ranch", "Fish Farm", "Sheep Ranch"],  "BoughtBy":["Chemicals Factory", "Fungus Farm", "Plasma Cell Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Body Armor",  "Volume": "1.5",  "AvgPrice": "95906",  "SoldBy":["Body Armor Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Book",  "Volume": "0.2",  "AvgPrice": "319",  "SoldBy":["Book Factory"],  "BoughtBy":["Habitat"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Carbon",  "Volume": "1",  "AvgPrice": "423",  "SoldBy":["Carbon Extractor"],  "BoughtBy":["Body Armor Factory", "Chemicals Factory", "High Capacity Lens Factory", "High Pressure Tube Factory", "Steel Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Cattle",  "Volume": "1.5",  "AvgPrice": "254",  "SoldBy":["Cattle Ranch"],  "BoughtBy":["Dairy Factory", "Meat Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Chemicals",  "Volume": "1",  "AvgPrice": "402",  "SoldBy":["Chemicals Factory"],  "BoughtBy":["Ammunition Factory", "Explosive Charge Factory", "Fertilizer Factory", "Medical Supplies Factory", "Paint Manufacturer", "Warhead Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Chlorine",  "Volume": "1",  "AvgPrice": "150",  "SoldBy":["Gas Collector"],  "BoughtBy":["Medical Supplies Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Clothes",  "Volume": "1",  "AvgPrice": "102",  "SoldBy":["Clothes Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Coal",  "Volume": "2",  "AvgPrice": "200",  "SoldBy":["Coal Mine"],  "BoughtBy":["Steel Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Cocoa",  "Volume": "0.2",  "AvgPrice": "87",  "SoldBy":["Cocoa Farm"],  "BoughtBy":["Habitat"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Coffee",  "Volume": "0.2",  "AvgPrice": "187",  "SoldBy":["Coffee Farm"],  "BoughtBy":["Habitat"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Computation Mainframe",  "Volume": "1",  "AvgPrice": "37940",  "SoldBy":["Computation Mainframe Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Conductor",  "Volume": "0.15",  "AvgPrice": "168",  "SoldBy":["Conductor Factory"],  "BoughtBy":["Accelerator Factory", "Electro Magnet Factory", "Energy Generator Factory", "Energy Inverter Factory", "Laser Head Factory", "Servo Factory", "Targeting System Factory", "Teleporter Factory", "Warhead Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Coolant",  "Volume": "0.5",  "AvgPrice": "402",  "SoldBy":["Chemicals Factory"],  "BoughtBy":["Body Armor Factory", "Mining Robot Factory", "Turbine Factory", "War Robot Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Copper",  "Volume": "1",  "AvgPrice": "350",  "SoldBy":["Copper Mine"],  "BoughtBy":["Computer Component Factory", "Electro Magnet Factory", "Processor Factory", "Targeting Card Factory", "Tesla Coil Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Corn",  "Volume": "1",  "AvgPrice": "28",  "SoldBy":["Corn Farm"],  "BoughtBy":["Carbon Extractor", "Cattle Ranch", "Food Bar Factory", "Food Factory", "Sheep Ranch", "Biotope"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Crystal",  "Volume": "1.5",  "AvgPrice": "190",  "SoldBy":["Crystal Farm"],  "BoughtBy":["Glass Manufacturer", "Nanobot Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Dairy",  "Volume": "1",  "AvgPrice": "19",  "SoldBy":["Dairy Factory"],  "BoughtBy":["Protein Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Diamond",  "Volume": "0.05",  "AvgPrice": "750",  "SoldBy":[""],  "BoughtBy":["Drill Factory", "High Capacity Lens Factory", "Jewelry Manufacturer"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Display",  "Volume": "1",  "AvgPrice": "7858",  "SoldBy":["Computer Component Factory", "Display Factory"],  "BoughtBy":["Computation Mainframe Factory", "Mining Robot Factory", "Satellite Factory", "Vehicle Factory", "War Robot Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Drill",  "Volume": "20",  "AvgPrice": "20443",  "SoldBy":["Drill Factory"],  "BoughtBy":["Mining Robot Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Drone",  "Volume": "10",  "AvgPrice": "7754",  "SoldBy":["Drone Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Electro Magnet",  "Volume": "0.75",  "AvgPrice": "483",  "SoldBy":["Electro Magnet Factory"],  "BoughtBy":["Anti-Grav Generator Factory", "Electromagnetic Charge Factory", "Force Generator Factory", "Gauss Rail Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Electromagnetic Charge",  "Volume": "1",  "AvgPrice": "13985",  "SoldBy":["Electromagnetic Charge Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Electron Accelerator",  "Volume": "12",  "AvgPrice": "125431",  "SoldBy":["Accelerator Factory"],  "BoughtBy":["Research Station"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Energy Cell",  "Volume": "0.5",  "AvgPrice": "50",  "SoldBy":["Solar Power Plant"],  "BoughtBy":["Ammunition Factory", "Ammunition S Factory", "Antigrav Unit Factory", "Book Factory", "Chemicals Factory", "Cocoa Farm", "Coffee Farm", "Conductor Factory", "Corn Farm", "Distillery", "Energy Container Factory", "Energy Generator Factory", "Energy Tube Factory", "Explosive Charge Factory", "Fertilizer Factory", "Food Bar Factory", "Fruit Farm", "Fuel Factory", "Gauss Rail Factory", "Laser Head Factory", "Laser Modulator Factory", "Luxury Food Factory", "Microchip Factory", "Oil Refinery", "Plant Farm", "Plasma Cell Factory", "Plastic Manufacturer", "Potato Farm", "Power Unit Factory", "Rice Farm", "Rubber Factory", "Semi Conductor Manufacturer", "Sheep Ranch", "Solar Cell Factory", "Spices Farm", "Targeting System Factory", "Tea Farm", "Tools Factory", "Transformator Factory", "Vegetable Farm", "Wheat Farm", "Wood Farm"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Energy Container",  "Volume": "4.5",  "AvgPrice": "1087",  "SoldBy":["Energy Container Factory"],  "BoughtBy":["Electromagnetic Charge Factory", "Satellite Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Energy Generator",  "Volume": "2",  "AvgPrice": "15957",  "SoldBy":["Energy Generator Factory"],  "BoughtBy":["Anti-Grav Generator Factory", "Force Generator Factory", "Vehicle Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Energy Inverter",  "Volume": "3",  "AvgPrice": "1277",  "SoldBy":["Energy Inverter Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Energy Tube",  "Volume": "1.5",  "AvgPrice": "2895",  "SoldBy":["Energy Tube Factory"],  "BoughtBy":["Accelerator Factory", "Electromagnetic Charge Factory", "Energy Inverter Factory", "Fusion Core Factory", "Gauss Rail Factory", "Laser Compressor Factory", "Laser Modulator Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Explosive Charge",  "Volume": "1.5",  "AvgPrice": "1423",  "SoldBy":["Explosive Charge Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Fabric",  "Volume": "1",  "AvgPrice": "91",  "SoldBy":["Fabric Factory", "Sheep Ranch"],  "BoughtBy":["Clothes Factory", "Medical Supplies Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Fertilizer",  "Volume": "1",  "AvgPrice": "319",  "SoldBy":["Fertilizer Factory"],  "BoughtBy":["Cocoa Farm", "Coffee Farm", "Spices Farm"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Fish",  "Volume": "0.5",  "AvgPrice": "152",  "SoldBy":["Fish Farm"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Fluorine",  "Volume": "1",  "AvgPrice": "250",  "SoldBy":["Gas Collector"],  "BoughtBy":["Explosive Charge Factory", "Fuel Factory"],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Food",  "Volume": "0.5",  "AvgPrice": "300",  "SoldBy":["Food Factory"],  "BoughtBy":["Habitat"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Food Bar",  "Volume": "0.5",  "AvgPrice": "223",  "SoldBy":["Food Bar Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Force Generator",  "Volume": "4",  "AvgPrice": "49576",  "SoldBy":["Force Generator Factory"],  "BoughtBy":["Research Station"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Fruit",  "Volume": "0.5",  "AvgPrice": "56",  "SoldBy":["Fruit Farm"],  "BoughtBy":["Luxury Food Factory", "Wine Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Fuel",  "Volume": "1",  "AvgPrice": "1232",  "SoldBy":["Fuel Factory"],  "BoughtBy":["Drone Factory", "Rocket Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Fungus",  "Volume": "1",  "AvgPrice": "46",  "SoldBy":["Fungus Farm"],  "BoughtBy":["Brewery", "Wine Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Fusion Core",  "Volume": "2.5",  "AvgPrice": "5114",  "SoldBy":["Fusion Core Factory"],  "BoughtBy":["Fusion Generator Factory", "Tesla Coil Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Fusion Generator",  "Volume": "2.5",  "AvgPrice": "39553",  "SoldBy":["Fusion Generator Factory"],  "BoughtBy":["Accelerator Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Gauss Rail",  "Volume": "2",  "AvgPrice": "7735",  "SoldBy":["Gauss Rail Factory"],  "BoughtBy":["Accelerator Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Gem",  "Volume": "0.05",  "AvgPrice": "400",  "SoldBy":[""],  "BoughtBy":["Jewelry Manufacturer"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Glass",  "Volume": "1",  "AvgPrice": "182",  "SoldBy":["Glass Manufacturer"],  "BoughtBy":["Display Factory", "High Capacity Lens Factory", "Laser Head Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Gold",  "Volume": "0.5",  "AvgPrice": "600",  "SoldBy":["Noble Metal Mine"],  "BoughtBy":["Computer Component Factory", "Conductor Factory", "Fusion Core Factory", "Jewelry Manufacturer", "Processor Factory", "Semi Conductor Manufacturer", "Solar Cell Factory", "Wire Manufacturer"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Gun",  "Volume": "0.5",  "AvgPrice": "1232",  "SoldBy":["Gun Factory"],  "BoughtBy":["War Robot Factory"],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Helium",  "Volume": "1",  "AvgPrice": "50",  "SoldBy":["Gas Collector"],  "BoughtBy":["Plasma Cell Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "High Capacity Lens",  "Volume": "1",  "AvgPrice": "4689",  "SoldBy":["High Capacity Lens Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "High Pressure Tube",  "Volume": "2",  "AvgPrice": "1650",  "SoldBy":["High Pressure Tube Factory"],  "BoughtBy":["Accelerator Factory", "Gauss Rail Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Hydrogen",  "Volume": "1",  "AvgPrice": "150",  "SoldBy":["Gas Collector"],  "BoughtBy":["Chemicals Factory", "Fusion Core Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Industrial Tesla Coil",  "Volume": "5.5",  "AvgPrice": "10314",  "SoldBy":["Tesla Coil Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Jewelry",  "Volume": "0.2",  "AvgPrice": "1260",  "SoldBy":["Jewelry Manufacturer"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Laser Compressor",  "Volume": "1.5",  "AvgPrice": "6577",  "SoldBy":["Laser Compressor Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Laser Head",  "Volume": "2",  "AvgPrice": "4690",  "SoldBy":["Laser Head Factory"],  "BoughtBy":["Drill Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Laser Modulator",  "Volume": "3",  "AvgPrice": "16742",  "SoldBy":["Laser Modulator Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Lead",  "Volume": "1",  "AvgPrice": "200",  "SoldBy":["Lead Mine"],  "BoughtBy":["Ammunition Factory", "Ammunition S Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Leather",  "Volume": "0.5",  "AvgPrice": "37",  "SoldBy":["Dairy Factory", "Meat Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Liquor",  "Volume": "1.25",  "AvgPrice": "1867",  "SoldBy":["Distillery"],  "BoughtBy":["Casino", "Habitat"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Luxury Food",  "Volume": "2.5",  "AvgPrice": "6452",  "SoldBy":["Luxury Food Factory"],  "BoughtBy":["Habitat"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Meat",  "Volume": "0.5",  "AvgPrice": "37",  "SoldBy":["Meat Factory"],  "BoughtBy":["Food Factory", "Protein Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Medical Supplies",  "Volume": "1",  "AvgPrice": "3006",  "SoldBy":["Medical Supplies Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Metal Plate",  "Volume": "3",  "AvgPrice": "792",  "SoldBy":["Metal Plate Factory"],  "BoughtBy":["Body Armor Factory", "Drone Factory", "Teleporter Factory", "Vehicle Factory", "Warhead Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Microchip",  "Volume": "0.1",  "AvgPrice": "896",  "SoldBy":["Microchip Factory"],  "BoughtBy":["Computation Mainframe Factory", "Computer Component Factory", "Display Factory", "Energy Generator Factory", "Processor Factory", "Rocket Factory", "Targeting Card Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Military Tesla Coil",  "Volume": "4.5",  "AvgPrice": "10314",  "SoldBy":["Tesla Coil Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Mineral",  "Volume": "1.5",  "AvgPrice": "500",  "SoldBy":["Mineral Extractor"],  "BoughtBy":["Fertilizer Factory", "Fungus Farm"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Mining Robot",  "Volume": "8",  "AvgPrice": "145977",  "SoldBy":["Mining Robot Factory"],  "BoughtBy":["Planetary Trading Post"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Morn Drug",  "Volume": "0.1",  "AvgPrice": "5000",  "SoldBy":[""],  "BoughtBy":[""],  "Illegal":"yes",  "Dangerous": "no" },
-{  "Name": "Nanobot",  "Volume": "0.5",  "AvgPrice": "1338",  "SoldBy":["Nanobot Factory"],  "BoughtBy":["Body Armor Factory", "Force Generator Factory", "Mining Robot Factory", "War Robot Factory", "Repair Dock"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Neon",  "Volume": "1",  "AvgPrice": "200",  "SoldBy":["Gas Collector"],  "BoughtBy":["Energy Tube Factory", "Plasma Cell Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Neutron Accelerator",  "Volume": "15",  "AvgPrice": "125431",  "SoldBy":["Accelerator Factory"],  "BoughtBy":["Research Station"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Nitrogen",  "Volume": "1",  "AvgPrice": "40",  "SoldBy":["Gas Collector"],  "BoughtBy":["Chemicals Factory", "Fuel Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Oil",  "Volume": "1",  "AvgPrice": "490",  "SoldBy":["Oil Refinery"],  "BoughtBy":["Fuel Factory", "Paint Manufacturer", "Plastic Manufacturer", "Rubber Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Ore",  "Volume": "2",  "AvgPrice": "70",  "SoldBy":["Ore Mine"],  "BoughtBy":["Glass Manufacturer", "Steel Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Oxygen",  "Volume": "1",  "AvgPrice": "80",  "SoldBy":["Cocoa Farm", "Coffee Farm", "Corn Farm", "Fruit Farm", "Gas Collector", "Plant Farm", "Potato Farm", "Rice Farm", "Spices Farm", "Tea Farm", "Vegetable Farm", "Wheat Farm", "Wood Farm"],  "BoughtBy":["Cattle Ranch", "Chemicals Factory", "Fish Farm", "Sheep Ranch"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Paint",  "Volume": "1",  "AvgPrice": "481",  "SoldBy":["Paint Manufacturer"],  "BoughtBy":["Ammunition Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Paper",  "Volume": "1",  "AvgPrice": "46",  "SoldBy":["Paper Factory"],  "BoughtBy":["Book Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Plankton",  "Volume": "1",  "AvgPrice": "50",  "SoldBy":["Fish Farm", "Plankton Collector"],  "BoughtBy":["Fertilizer Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Plant",  "Volume": "1.5",  "AvgPrice": "14",  "SoldBy":["Plant Farm"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Plasma Cell",  "Volume": "0.25",  "AvgPrice": "174",  "SoldBy":["Plasma Cell Factory"],  "BoughtBy":["Accelerator Factory", "Display Factory", "Drone Factory", "Fusion Core Factory", "Fusion Generator Factory", "Laser Compressor Factory", "Power Unit Factory", "Teleporter Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Plastic",  "Volume": "0.5",  "AvgPrice": "137",  "SoldBy":["Plastic Manufacturer"],  "BoughtBy":["Energy Tube Factory", "Explosive Charge Factory", "Force Generator Factory", "Gun Factory", "High Capacity Lens Factory", "Servo Factory", "Tesla Coil Factory", "Transformator Factory", "Wire Manufacturer"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Platinum",  "Volume": "0.5",  "AvgPrice": "750",  "SoldBy":["Noble Metal Mine"],  "BoughtBy":["Computer Component Factory", "Conductor Factory", "Energy Tube Factory", "Jewelry Manufacturer", "Processor Factory", "Solar Cell Factory", "Tools Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Potato",  "Volume": "1",  "AvgPrice": "24",  "SoldBy":["Potato Farm"],  "BoughtBy":["Carbon Extractor"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Power Unit",  "Volume": "5",  "AvgPrice": "1211",  "SoldBy":["Power Unit Factory"],  "BoughtBy":["Antigrav Unit Factory", "Computation Mainframe Factory", "Fusion Generator Factory", "Mining Robot Factory", "Teleporter Factory", "Turbine Factory", "Vehicle Factory", "War Robot Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Processor",  "Volume": "0.1",  "AvgPrice": "7858",  "SoldBy":["Computer Component Factory", "Processor Factory"],  "BoughtBy":["Antigrav Unit Factory", "Computation Mainframe Factory", "Drill Factory", "Mining Robot Factory", "Satellite Factory", "Targeting Card Factory", "Targeting System Factory", "War Robot Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Protein",  "Volume": "0.1",  "AvgPrice": "34",  "SoldBy":["Protein Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Proton Accelerator",  "Volume": "15",  "AvgPrice": "125431",  "SoldBy":["Accelerator Factory"],  "BoughtBy":["Research Station"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Raw Oil",  "Volume": "1",  "AvgPrice": "150",  "SoldBy":["Oil Rig"],  "BoughtBy":["Oil Refinery"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Rice",  "Volume": "1",  "AvgPrice": "15",  "SoldBy":["Rice Farm"],  "BoughtBy":["Carbon Extractor", "Food Bar Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Rocket",  "Volume": "4",  "AvgPrice": "11250",  "SoldBy":["Rocket Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Rubber",  "Volume": "1",  "AvgPrice": "686",  "SoldBy":["Rubber Factory"],  "BoughtBy":["Vehicle Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Satellite",  "Volume": "15",  "AvgPrice": "65714",  "SoldBy":["Satellite Factory"],  "BoughtBy":["Research Station"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Scrap Metal",  "Volume": "3",  "AvgPrice": "25",  "SoldBy":["Drill Factory", "Drone Factory", "Laser Compressor Factory", "Mining Robot Factory", "Satellite Factory", "Scrap Metal Trader", "Teleporter Factory", "Vehicle Factory", "War Robot Factory", "Warhead Factory"],  "BoughtBy":["Steel Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Semi Conductor",  "Volume": "0.1",  "AvgPrice": "129",  "SoldBy":["Semi Conductor Manufacturer"],  "BoughtBy":["Computer Component Factory", "Display Factory", "Microchip Factory", "Nanobot Factory", "Processor Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Servo",  "Volume": "0.25",  "AvgPrice": "1387",  "SoldBy":["Servo Factory"],  "BoughtBy":["Anti-Grav Generator Factory", "Laser Modulator Factory", "Turbine Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Sheep",  "Volume": "1",  "AvgPrice": "130",  "SoldBy":["Sheep Ranch"],  "BoughtBy":["Fabric Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Silicium",  "Volume": "1",  "AvgPrice": "500",  "SoldBy":["Silicium Mine"],  "BoughtBy":["Semi Conductor Manufacturer", "Solar Cell Factory", "Transformator Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Silver",  "Volume": "0.5",  "AvgPrice": "300",  "SoldBy":["Noble Metal Mine"],  "BoughtBy":["Metal Plate Factory", "Tools Factory", "Transformator Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Slave",  "Volume": "1",  "AvgPrice": "15000",  "SoldBy":[""],  "BoughtBy":[""],  "Illegal":"yes",  "Dangerous": "no" },
-{  "Name": "Solar Cell",  "Volume": "2",  "AvgPrice": "469",  "SoldBy":["Solar Cell Factory"],  "BoughtBy":["Solar Panel Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Solar Panel",  "Volume": "6",  "AvgPrice": "6858",  "SoldBy":["Solar Panel Factory"],  "BoughtBy":["Satellite Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Solvent",  "Volume": "1",  "AvgPrice": "402",  "SoldBy":["Chemicals Factory"],  "BoughtBy":["Fertilizer Factory", "Paint Manufacturer"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Spices",  "Volume": "0.3",  "AvgPrice": "268",  "SoldBy":["Spices Farm"],  "BoughtBy":["Luxury Food Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Steel",  "Volume": "1",  "AvgPrice": "277",  "SoldBy":["Steel Factory"],  "BoughtBy":["Ammunition Factory", "Ammunition S Factory", "Conductor Factory", "Drill Factory", "Electro Magnet Factory", "Energy Tube Factory", "Explosive Charge Factory", "Force Generator Factory", "Fusion Generator Factory", "Gun Factory", "High Pressure Tube Factory", "Metal Plate Factory", "Plasma Cell Factory", "Rocket Factory", "Semi Conductor Manufacturer", "Servo Factory", "Steel Tube Factory", "Tesla Coil Factory", "Tools Factory", "Transformator Factory", "Turbine Factory", "Wire Manufacturer"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Steel Tube",  "Volume": "3",  "AvgPrice": "704",  "SoldBy":["Steel Tube Factory"],  "BoughtBy":["Energy Tube Factory", "High Pressure Tube Factory", "Satellite Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Targeting Card",  "Volume": "0.5",  "AvgPrice": "11873",  "SoldBy":["Computer Component Factory", "Targeting Card Factory"],  "BoughtBy":["Targeting System Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Targeting System",  "Volume": "0.75",  "AvgPrice": "29674",  "SoldBy":["Targeting System Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Tea",  "Volume": "0.2",  "AvgPrice": "37",  "SoldBy":["Tea Farm"],  "BoughtBy":["Habitat"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Teleporter",  "Volume": "12",  "AvgPrice": "39365",  "SoldBy":["Teleporter Factory"],  "BoughtBy":["Body Armor Factory", "Mining Robot Factory", "War Robot Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Tools",  "Volume": "0.4",  "AvgPrice": "214",  "SoldBy":["Tools Factory"],  "BoughtBy":["Equipment Dock"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Toxic Waste",  "Volume": "4",  "AvgPrice": "15",  "SoldBy":["Ammunition Factory", "Fertilizer Factory", "Fuel Factory", "Fungus Farm", "Laser Head Factory", "Paint Manufacturer", "Rubber Factory"],  "BoughtBy":[""],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Transformator",  "Volume": "0.2",  "AvgPrice": "209",  "SoldBy":["Transformator Factory"],  "BoughtBy":["Electro Magnet Factory", "Electromagnetic Charge Factory", "Energy Container Factory", "Energy Inverter Factory", "Fusion Core Factory", "Gauss Rail Factory", "Laser Compressor Factory", "Laser Modulator Factory", "Power Unit Factory", "Solar Panel Factory", "Teleporter Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Turbine",  "Volume": "7.5",  "AvgPrice": "16729",  "SoldBy":["Turbine Factory"],  "BoughtBy":["Accelerator Factory", "Research Station"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Vegetable",  "Volume": "1",  "AvgPrice": "32",  "SoldBy":["Vegetable Farm"],  "BoughtBy":["Food Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Vehicle",  "Volume": "25",  "AvgPrice": "77087",  "SoldBy":["Vehicle Factory"],  "BoughtBy":["Trading post", "Military outpost"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "War Robot",  "Volume": "8",  "AvgPrice": "92186",  "SoldBy":["War Robot Factory"],  "BoughtBy":["Military Outpost"],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Warhead",  "Volume": "3",  "AvgPrice": "5630",  "SoldBy":["Warhead Factory"],  "BoughtBy":["Rocket Factory"],  "Illegal":"no",  "Dangerous": "yes" },
-{  "Name": "Water",  "Volume": "1",  "AvgPrice": "20",  "SoldBy":["Ice Mine", "Water Collector"],  "BoughtBy":["Brewery", "Cattle Ranch", "Chemicals Factory", "Cocoa Farm", "Coffee Farm", "Corn Farm", "Distillery", "Fish Farm", "Fruit Farm", "Fungus Farm", "Medical Supplies Factory", "Paint Manufacturer", "Paper Factory", "Plant Farm", "Potato Farm", "Rice Farm", "Sheep Ranch", "Spices Farm", "Tea Farm", "Vegetable Farm", "Wheat Farm", "Wood Farm"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Wheat",  "Volume": "1",  "AvgPrice": "23",  "SoldBy":["Wheat Farm"],  "BoughtBy":["Brewery", "Carbon Extractor", "Cattle Ranch", "Distillery", "Fish Farm", "Food Bar Factory", "Food Factory", "Luxury Food Factory", "Sheep Ranch"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Wine",  "Volume": "0.5",  "AvgPrice": "182",  "SoldBy":["Wine Factory"],  "BoughtBy":["Luxury Food Factory", "Habitat"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Wire",  "Volume": "0.5",  "AvgPrice": "95",  "SoldBy":["Wire Manufacturer"],  "BoughtBy":["Anti-Grav Generator Factory", "Computation Mainframe Factory", "Computer Component Factory", "Laser Compressor Factory", "Microchip Factory", "Targeting System Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Wood",  "Volume": "2.5",  "AvgPrice": "350",  "SoldBy":["Wood Farm"],  "BoughtBy":["Paper Factory"],  "Illegal":"no",  "Dangerous": "no" },
-{  "Name": "Zinc",  "Volume": "1",  "AvgPrice": "250",  "SoldBy":["Zinc Mine"],  "BoughtBy":["Conductor Factory", "Medical Supplies Factory", "Solar Cell Factory"],  "Illegal":"no",  "Dangerous": "no" }]
+[{
+  "Name": "Acid",
+  "Volume": "1",
+  "AvgPrice": "402",
+  "SoldBy": [
+    "Chemicals Factory",
+    "Rubber Factory"
+  ],
+  "BoughtBy": [
+    "Explosive Charge Factory",
+    "Paint Manufacturer"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Acron Drug",
+  "Volume": "0.1",
+  "AvgPrice": "6000",
+  "SoldBy": [],
+  "BoughtBy": [],
+  "Illegal": true,
+  "Dangerous": false 
+},
+{
+  "Name": "Adhesive",
+  "Volume": "0.25",
+  "AvgPrice": "402",
+  "SoldBy": [
+    "Chemicals Factory"
+  ],
+  "BoughtBy": [
+    "Ammunition Factory",
+    "Ammunition S Factory",
+    "Explosive Charge Factory",
+    "High Pressure Tube Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Aluminium",
+  "Volume": "1",
+  "AvgPrice": "200",
+  "SoldBy": [
+    "Aluminium Mine"
+  ],
+  "BoughtBy": [
+    "Ammunition Factory",
+    "Ammunition S Factory",
+    "Gun Factory",
+    "High Pressure Tube Factory",
+    "Laser Head Factory",
+    "Servo Factory",
+    "Steel Tube Factory",
+    "Tools Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Ammunition",
+  "Volume": "3",
+  "AvgPrice": "3786",
+  "SoldBy": [
+    "Ammunition Factory"
+  ],
+  "BoughtBy": [
+    "Gun Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Ammunition L",
+  "Volume": "2.5",
+  "AvgPrice": "422",
+  "SoldBy": [
+    "Ammunition Factory",
+    "Ammunition S Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Ammunition M",
+  "Volume": "1.5",
+  "AvgPrice": "422",
+  "SoldBy": [
+    "Ammunition Factory",
+    "Ammunition S Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Ammunition S",
+  "Volume": "0.5",
+  "AvgPrice": "422",
+  "SoldBy": [
+    "Ammunition Factory",
+    "Ammunition S Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Anti-Grav Generator",
+  "Volume": "2.5",
+  "AvgPrice": "71632",
+  "SoldBy": [
+    "Anti-Grav Generator Factory"
+  ],
+  "BoughtBy": [
+    "Research Station"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Antigrav Unit",
+  "Volume": "2.5",
+  "AvgPrice": "25391",
+  "SoldBy": [
+    "Antigrav Unit Factory"
+  ],
+  "BoughtBy": [
+    "Anti-Grav Generator Factory",
+    "Body Armor Factory",
+    "Teleporter Factory",
+    "Vehicle Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Beer",
+  "Volume": "0.5",
+  "AvgPrice": "216",
+  "SoldBy": [
+    "Brewery"
+  ],
+  "BoughtBy": [
+    "Casino"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Bio Gas",
+  "Volume": "1",
+  "AvgPrice": "213",
+  "SoldBy": [
+    "Cattle Ranch",
+    "Fish Farm",
+    "Sheep Ranch"
+  ],
+  "BoughtBy": [
+    "Chemicals Factory",
+    "Fungus Farm",
+    "Plasma Cell Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Body Armor",
+  "Volume": "1.5",
+  "AvgPrice": "95906",
+  "SoldBy": [
+    "Body Armor Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Book",
+  "Volume": "0.2",
+  "AvgPrice": "319",
+  "SoldBy": [
+    "Book Factory"
+  ],
+  "BoughtBy": [
+    "Habitat"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Carbon",
+  "Volume": "1",
+  "AvgPrice": "423",
+  "SoldBy": [
+    "Carbon Extractor"
+  ],
+  "BoughtBy": [
+    "Body Armor Factory",
+    "Chemicals Factory",
+    "High Capacity Lens Factory",
+    "High Pressure Tube Factory",
+    "Steel Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Cattle",
+  "Volume": "1.5",
+  "AvgPrice": "254",
+  "SoldBy": [
+    "Cattle Ranch"
+  ],
+  "BoughtBy": [
+    "Dairy Factory",
+    "Meat Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Chemicals",
+  "Volume": "1",
+  "AvgPrice": "402",
+  "SoldBy": [
+    "Chemicals Factory"
+  ],
+  "BoughtBy": [
+    "Ammunition Factory",
+    "Explosive Charge Factory",
+    "Fertilizer Factory",
+    "Medical Supplies Factory",
+    "Paint Manufacturer",
+    "Warhead Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Chlorine",
+  "Volume": "1",
+  "AvgPrice": "150",
+  "SoldBy": [
+    "Gas Collector"
+  ],
+  "BoughtBy": [
+    "Medical Supplies Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Clothes",
+  "Volume": "1",
+  "AvgPrice": "102",
+  "SoldBy": [
+    "Clothes Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Coal",
+  "Volume": "2",
+  "AvgPrice": "200",
+  "SoldBy": [
+    "Coal Mine"
+  ],
+  "BoughtBy": [
+    "Steel Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Cocoa",
+  "Volume": "0.2",
+  "AvgPrice": "87",
+  "SoldBy": [
+    "Cocoa Farm"
+  ],
+  "BoughtBy": [
+    "Habitat"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Coffee",
+  "Volume": "0.2",
+  "AvgPrice": "187",
+  "SoldBy": [
+    "Coffee Farm"
+  ],
+  "BoughtBy": [
+    "Habitat"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Computation Mainframe",
+  "Volume": "1",
+  "AvgPrice": "37940",
+  "SoldBy": [
+    "Computation Mainframe Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Conductor",
+  "Volume": "0.15",
+  "AvgPrice": "168",
+  "SoldBy": [
+    "Conductor Factory"
+  ],
+  "BoughtBy": [
+    "Accelerator Factory",
+    "Electro Magnet Factory",
+    "Energy Generator Factory",
+    "Energy Inverter Factory",
+    "Laser Head Factory",
+    "Servo Factory",
+    "Targeting System Factory",
+    "Teleporter Factory",
+    "Warhead Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Coolant",
+  "Volume": "0.5",
+  "AvgPrice": "402",
+  "SoldBy": [
+    "Chemicals Factory"
+  ],
+  "BoughtBy": [
+    "Body Armor Factory",
+    "Mining Robot Factory",
+    "Turbine Factory",
+    "War Robot Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Copper",
+  "Volume": "1",
+  "AvgPrice": "350",
+  "SoldBy": [
+    "Copper Mine"
+  ],
+  "BoughtBy": [
+    "Computer Component Factory",
+    "Electro Magnet Factory",
+    "Processor Factory",
+    "Targeting Card Factory",
+    "Tesla Coil Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Corn",
+  "Volume": "1",
+  "AvgPrice": "28",
+  "SoldBy": [
+    "Corn Farm"
+  ],
+  "BoughtBy": [
+    "Carbon Extractor",
+    "Cattle Ranch",
+    "Food Bar Factory",
+    "Food Factory",
+    "Sheep Ranch",
+    "Biotope"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Crystal",
+  "Volume": "1.5",
+  "AvgPrice": "190",
+  "SoldBy": [
+    "Crystal Farm"
+  ],
+  "BoughtBy": [
+    "Glass Manufacturer",
+    "Nanobot Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Dairy",
+  "Volume": "1",
+  "AvgPrice": "19",
+  "SoldBy": [
+    "Dairy Factory"
+  ],
+  "BoughtBy": [
+    "Protein Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Diamond",
+  "Volume": "0.05",
+  "AvgPrice": "750",
+  "SoldBy": [],
+  "BoughtBy": [
+    "Drill Factory",
+    "High Capacity Lens Factory",
+    "Jewelry Manufacturer"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Display",
+  "Volume": "1",
+  "AvgPrice": "7858",
+  "SoldBy": [
+    "Computer Component Factory",
+    "Display Factory"
+  ],
+  "BoughtBy": [
+    "Computation Mainframe Factory",
+    "Mining Robot Factory",
+    "Satellite Factory",
+    "Vehicle Factory",
+    "War Robot Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Drill",
+  "Volume": "20",
+  "AvgPrice": "20443",
+  "SoldBy": [
+    "Drill Factory"
+  ],
+  "BoughtBy": [
+    "Mining Robot Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Drone",
+  "Volume": "10",
+  "AvgPrice": "7754",
+  "SoldBy": [
+    "Drone Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Electro Magnet",
+  "Volume": "0.75",
+  "AvgPrice": "483",
+  "SoldBy": [
+    "Electro Magnet Factory"
+  ],
+  "BoughtBy": [
+    "Anti-Grav Generator Factory",
+    "Electromagnetic Charge Factory",
+    "Force Generator Factory",
+    "Gauss Rail Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Electromagnetic Charge",
+  "Volume": "1",
+  "AvgPrice": "13985",
+  "SoldBy": [
+    "Electromagnetic Charge Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Electron Accelerator",
+  "Volume": "12",
+  "AvgPrice": "125431",
+  "SoldBy": [
+    "Accelerator Factory"
+  ],
+  "BoughtBy": [
+    "Research Station"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Energy Cell",
+  "Volume": "0.5",
+  "AvgPrice": "50",
+  "SoldBy": [
+    "Solar Power Plant"
+  ],
+  "BoughtBy": [
+    "Ammunition Factory",
+    "Ammunition S Factory",
+    "Antigrav Unit Factory",
+    "Book Factory",
+    "Chemicals Factory",
+    "Cocoa Farm",
+    "Coffee Farm",
+    "Conductor Factory",
+    "Corn Farm",
+    "Distillery",
+    "Energy Container Factory",
+    "Energy Generator Factory",
+    "Energy Tube Factory",
+    "Explosive Charge Factory",
+    "Fertilizer Factory",
+    "Food Bar Factory",
+    "Fruit Farm",
+    "Fuel Factory",
+    "Gauss Rail Factory",
+    "Laser Head Factory",
+    "Laser Modulator Factory",
+    "Luxury Food Factory",
+    "Microchip Factory",
+    "Oil Refinery",
+    "Plant Farm",
+    "Plasma Cell Factory",
+    "Plastic Manufacturer",
+    "Potato Farm",
+    "Power Unit Factory",
+    "Rice Farm",
+    "Rubber Factory",
+    "Semi Conductor Manufacturer",
+    "Sheep Ranch",
+    "Solar Cell Factory",
+    "Spices Farm",
+    "Targeting System Factory",
+    "Tea Farm",
+    "Tools Factory",
+    "Transformator Factory",
+    "Vegetable Farm",
+    "Wheat Farm",
+    "Wood Farm"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Energy Container",
+  "Volume": "4.5",
+  "AvgPrice": "1087",
+  "SoldBy": [
+    "Energy Container Factory"
+  ],
+  "BoughtBy": [
+    "Electromagnetic Charge Factory",
+    "Satellite Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Energy Generator",
+  "Volume": "2",
+  "AvgPrice": "15957",
+  "SoldBy": [
+    "Energy Generator Factory"
+  ],
+  "BoughtBy": [
+    "Anti-Grav Generator Factory",
+    "Force Generator Factory",
+    "Vehicle Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Energy Inverter",
+  "Volume": "3",
+  "AvgPrice": "1277",
+  "SoldBy": [
+    "Energy Inverter Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Energy Tube",
+  "Volume": "1.5",
+  "AvgPrice": "2895",
+  "SoldBy": [
+    "Energy Tube Factory"
+  ],
+  "BoughtBy": [
+    "Accelerator Factory",
+    "Electromagnetic Charge Factory",
+    "Energy Inverter Factory",
+    "Fusion Core Factory",
+    "Gauss Rail Factory",
+    "Laser Compressor Factory",
+    "Laser Modulator Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Explosive Charge",
+  "Volume": "1.5",
+  "AvgPrice": "1423",
+  "SoldBy": [
+    "Explosive Charge Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Fabric",
+  "Volume": "1",
+  "AvgPrice": "91",
+  "SoldBy": [
+    "Fabric Factory",
+    "Sheep Ranch"
+  ],
+  "BoughtBy": [
+    "Clothes Factory",
+    "Medical Supplies Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Fertilizer",
+  "Volume": "1",
+  "AvgPrice": "319",
+  "SoldBy": [
+    "Fertilizer Factory"
+  ],
+  "BoughtBy": [
+    "Cocoa Farm",
+    "Coffee Farm",
+    "Spices Farm"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Fish",
+  "Volume": "0.5",
+  "AvgPrice": "152",
+  "SoldBy": [
+    "Fish Farm"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Fluorine",
+  "Volume": "1",
+  "AvgPrice": "250",
+  "SoldBy": [
+    "Gas Collector"
+  ],
+  "BoughtBy": [
+    "Explosive Charge Factory",
+    "Fuel Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Food",
+  "Volume": "0.5",
+  "AvgPrice": "300",
+  "SoldBy": [
+    "Food Factory"
+  ],
+  "BoughtBy": [
+    "Habitat"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Food Bar",
+  "Volume": "0.5",
+  "AvgPrice": "223",
+  "SoldBy": [
+    "Food Bar Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Force Generator",
+  "Volume": "4",
+  "AvgPrice": "49576",
+  "SoldBy": [
+    "Force Generator Factory"
+  ],
+  "BoughtBy": [
+    "Research Station"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Fruit",
+  "Volume": "0.5",
+  "AvgPrice": "56",
+  "SoldBy": [
+    "Fruit Farm"
+  ],
+  "BoughtBy": [
+    "Luxury Food Factory",
+    "Wine Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Fuel",
+  "Volume": "1",
+  "AvgPrice": "1232",
+  "SoldBy": [
+    "Fuel Factory"
+  ],
+  "BoughtBy": [
+    "Drone Factory",
+    "Rocket Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Fungus",
+  "Volume": "1",
+  "AvgPrice": "46",
+  "SoldBy": [
+    "Fungus Farm"
+  ],
+  "BoughtBy": [
+    "Brewery",
+    "Wine Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Fusion Core",
+  "Volume": "2.5",
+  "AvgPrice": "5114",
+  "SoldBy": [
+    "Fusion Core Factory"
+  ],
+  "BoughtBy": [
+    "Fusion Generator Factory",
+    "Tesla Coil Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Fusion Generator",
+  "Volume": "2.5",
+  "AvgPrice": "39553",
+  "SoldBy": [
+    "Fusion Generator Factory"
+  ],
+  "BoughtBy": [
+    "Accelerator Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Gauss Rail",
+  "Volume": "2",
+  "AvgPrice": "7735",
+  "SoldBy": [
+    "Gauss Rail Factory"
+  ],
+  "BoughtBy": [
+    "Accelerator Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Gem",
+  "Volume": "0.05",
+  "AvgPrice": "400",
+  "SoldBy": [],
+  "BoughtBy": [
+    "Jewelry Manufacturer"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Glass",
+  "Volume": "1",
+  "AvgPrice": "182",
+  "SoldBy": [
+    "Glass Manufacturer"
+  ],
+  "BoughtBy": [
+    "Display Factory",
+    "High Capacity Lens Factory",
+    "Laser Head Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Gold",
+  "Volume": "0.5",
+  "AvgPrice": "600",
+  "SoldBy": [
+    "Noble Metal Mine"
+  ],
+  "BoughtBy": [
+    "Computer Component Factory",
+    "Conductor Factory",
+    "Fusion Core Factory",
+    "Jewelry Manufacturer",
+    "Processor Factory",
+    "Semi Conductor Manufacturer",
+    "Solar Cell Factory",
+    "Wire Manufacturer"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Gun",
+  "Volume": "0.5",
+  "AvgPrice": "1232",
+  "SoldBy": [
+    "Gun Factory"
+  ],
+  "BoughtBy": [
+    "War Robot Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Helium",
+  "Volume": "1",
+  "AvgPrice": "50",
+  "SoldBy": [
+    "Gas Collector"
+  ],
+  "BoughtBy": [
+    "Plasma Cell Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "High Capacity Lens",
+  "Volume": "1",
+  "AvgPrice": "4689",
+  "SoldBy": [
+    "High Capacity Lens Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "High Pressure Tube",
+  "Volume": "2",
+  "AvgPrice": "1650",
+  "SoldBy": [
+    "High Pressure Tube Factory"
+  ],
+  "BoughtBy": [
+    "Accelerator Factory",
+    "Gauss Rail Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Hydrogen",
+  "Volume": "1",
+  "AvgPrice": "150",
+  "SoldBy": [
+    "Gas Collector"
+  ],
+  "BoughtBy": [
+    "Chemicals Factory",
+    "Fusion Core Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Industrial Tesla Coil",
+  "Volume": "5.5",
+  "AvgPrice": "10314",
+  "SoldBy": [
+    "Tesla Coil Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Jewelry",
+  "Volume": "0.2",
+  "AvgPrice": "1260",
+  "SoldBy": [
+    "Jewelry Manufacturer"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Laser Compressor",
+  "Volume": "1.5",
+  "AvgPrice": "6577",
+  "SoldBy": [
+    "Laser Compressor Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Laser Head",
+  "Volume": "2",
+  "AvgPrice": "4690",
+  "SoldBy": [
+    "Laser Head Factory"
+  ],
+  "BoughtBy": [
+    "Drill Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Laser Modulator",
+  "Volume": "3",
+  "AvgPrice": "16742",
+  "SoldBy": [
+    "Laser Modulator Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Lead",
+  "Volume": "1",
+  "AvgPrice": "200",
+  "SoldBy": [
+    "Lead Mine"
+  ],
+  "BoughtBy": [
+    "Ammunition Factory",
+    "Ammunition S Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Leather",
+  "Volume": "0.5",
+  "AvgPrice": "37",
+  "SoldBy": [
+    "Dairy Factory",
+    "Meat Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Liquor",
+  "Volume": "1.25",
+  "AvgPrice": "1867",
+  "SoldBy": [
+    "Distillery"
+  ],
+  "BoughtBy": [
+    "Casino",
+    "Habitat"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Luxury Food",
+  "Volume": "2.5",
+  "AvgPrice": "6452",
+  "SoldBy": [
+    "Luxury Food Factory"
+  ],
+  "BoughtBy": [
+    "Habitat"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Meat",
+  "Volume": "0.5",
+  "AvgPrice": "37",
+  "SoldBy": [
+    "Meat Factory"
+  ],
+  "BoughtBy": [
+    "Food Factory",
+    "Protein Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Medical Supplies",
+  "Volume": "1",
+  "AvgPrice": "3006",
+  "SoldBy": [
+    "Medical Supplies Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Metal Plate",
+  "Volume": "3",
+  "AvgPrice": "792",
+  "SoldBy": [
+    "Metal Plate Factory"
+  ],
+  "BoughtBy": [
+    "Body Armor Factory",
+    "Drone Factory",
+    "Teleporter Factory",
+    "Vehicle Factory",
+    "Warhead Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Microchip",
+  "Volume": "0.1",
+  "AvgPrice": "896",
+  "SoldBy": [
+    "Microchip Factory"
+  ],
+  "BoughtBy": [
+    "Computation Mainframe Factory",
+    "Computer Component Factory",
+    "Display Factory",
+    "Energy Generator Factory",
+    "Processor Factory",
+    "Rocket Factory",
+    "Targeting Card Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Military Tesla Coil",
+  "Volume": "4.5",
+  "AvgPrice": "10314",
+  "SoldBy": [
+    "Tesla Coil Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Mineral",
+  "Volume": "1.5",
+  "AvgPrice": "500",
+  "SoldBy": [
+    "Mineral Extractor"
+  ],
+  "BoughtBy": [
+    "Fertilizer Factory",
+    "Fungus Farm"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Mining Robot",
+  "Volume": "8",
+  "AvgPrice": "145977",
+  "SoldBy": [
+    "Mining Robot Factory"
+  ],
+  "BoughtBy": [
+    "Planetary Trading Post"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Morn Drug",
+  "Volume": "0.1",
+  "AvgPrice": "5000",
+  "SoldBy": [],
+  "BoughtBy": [],
+  "Illegal": true,
+  "Dangerous": false 
+},
+{
+  "Name": "Nanobot",
+  "Volume": "0.5",
+  "AvgPrice": "1338",
+  "SoldBy": [
+    "Nanobot Factory"
+  ],
+  "BoughtBy": [
+    "Body Armor Factory",
+    "Force Generator Factory",
+    "Mining Robot Factory",
+    "War Robot Factory",
+    "Repair Dock"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Neon",
+  "Volume": "1",
+  "AvgPrice": "200",
+  "SoldBy": [
+    "Gas Collector"
+  ],
+  "BoughtBy": [
+    "Energy Tube Factory",
+    "Plasma Cell Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Neutron Accelerator",
+  "Volume": "15",
+  "AvgPrice": "125431",
+  "SoldBy": [
+    "Accelerator Factory"
+  ],
+  "BoughtBy": [
+    "Research Station"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Nitrogen",
+  "Volume": "1",
+  "AvgPrice": "40",
+  "SoldBy": [
+    "Gas Collector"
+  ],
+  "BoughtBy": [
+    "Chemicals Factory",
+    "Fuel Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Oil",
+  "Volume": "1",
+  "AvgPrice": "490",
+  "SoldBy": [
+    "Oil Refinery"
+  ],
+  "BoughtBy": [
+    "Fuel Factory",
+    "Paint Manufacturer",
+    "Plastic Manufacturer",
+    "Rubber Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Ore",
+  "Volume": "2",
+  "AvgPrice": "70",
+  "SoldBy": [
+    "Ore Mine"
+  ],
+  "BoughtBy": [
+    "Glass Manufacturer",
+    "Steel Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Oxygen",
+  "Volume": "1",
+  "AvgPrice": "80",
+  "SoldBy": [
+    "Cocoa Farm",
+    "Coffee Farm",
+    "Corn Farm",
+    "Fruit Farm",
+    "Gas Collector",
+    "Plant Farm",
+    "Potato Farm",
+    "Rice Farm",
+    "Spices Farm",
+    "Tea Farm",
+    "Vegetable Farm",
+    "Wheat Farm",
+    "Wood Farm"
+  ],
+  "BoughtBy": [
+    "Cattle Ranch",
+    "Chemicals Factory",
+    "Fish Farm",
+    "Sheep Ranch"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Paint",
+  "Volume": "1",
+  "AvgPrice": "481",
+  "SoldBy": [
+    "Paint Manufacturer"
+  ],
+  "BoughtBy": [
+    "Ammunition Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Paper",
+  "Volume": "1",
+  "AvgPrice": "46",
+  "SoldBy": [
+    "Paper Factory"
+  ],
+  "BoughtBy": [
+    "Book Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Plankton",
+  "Volume": "1",
+  "AvgPrice": "50",
+  "SoldBy": [
+    "Fish Farm",
+    "Plankton Collector"
+  ],
+  "BoughtBy": [
+    "Fertilizer Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Plant",
+  "Volume": "1.5",
+  "AvgPrice": "14",
+  "SoldBy": [
+    "Plant Farm"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Plasma Cell",
+  "Volume": "0.25",
+  "AvgPrice": "174",
+  "SoldBy": [
+    "Plasma Cell Factory"
+  ],
+  "BoughtBy": [
+    "Accelerator Factory",
+    "Display Factory",
+    "Drone Factory",
+    "Fusion Core Factory",
+    "Fusion Generator Factory",
+    "Laser Compressor Factory",
+    "Power Unit Factory",
+    "Teleporter Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Plastic",
+  "Volume": "0.5",
+  "AvgPrice": "137",
+  "SoldBy": [
+    "Plastic Manufacturer"
+  ],
+  "BoughtBy": [
+    "Energy Tube Factory",
+    "Explosive Charge Factory",
+    "Force Generator Factory",
+    "Gun Factory",
+    "High Capacity Lens Factory",
+    "Servo Factory",
+    "Tesla Coil Factory",
+    "Transformator Factory",
+    "Wire Manufacturer"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Platinum",
+  "Volume": "0.5",
+  "AvgPrice": "750",
+  "SoldBy": [
+    "Noble Metal Mine"
+  ],
+  "BoughtBy": [
+    "Computer Component Factory",
+    "Conductor Factory",
+    "Energy Tube Factory",
+    "Jewelry Manufacturer",
+    "Processor Factory",
+    "Solar Cell Factory",
+    "Tools Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Potato",
+  "Volume": "1",
+  "AvgPrice": "24",
+  "SoldBy": [
+    "Potato Farm"
+  ],
+  "BoughtBy": [
+    "Carbon Extractor"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Power Unit",
+  "Volume": "5",
+  "AvgPrice": "1211",
+  "SoldBy": [
+    "Power Unit Factory"
+  ],
+  "BoughtBy": [
+    "Antigrav Unit Factory",
+    "Computation Mainframe Factory",
+    "Fusion Generator Factory",
+    "Mining Robot Factory",
+    "Teleporter Factory",
+    "Turbine Factory",
+    "Vehicle Factory",
+    "War Robot Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Processor",
+  "Volume": "0.1",
+  "AvgPrice": "7858",
+  "SoldBy": [
+    "Computer Component Factory",
+    "Processor Factory"
+  ],
+  "BoughtBy": [
+    "Antigrav Unit Factory",
+    "Computation Mainframe Factory",
+    "Drill Factory",
+    "Mining Robot Factory",
+    "Satellite Factory",
+    "Targeting Card Factory",
+    "Targeting System Factory",
+    "War Robot Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Protein",
+  "Volume": "0.1",
+  "AvgPrice": "34",
+  "SoldBy": [
+    "Protein Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Proton Accelerator",
+  "Volume": "15",
+  "AvgPrice": "125431",
+  "SoldBy": [
+    "Accelerator Factory"
+  ],
+  "BoughtBy": [
+    "Research Station"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Raw Oil",
+  "Volume": "1",
+  "AvgPrice": "150",
+  "SoldBy": [
+    "Oil Rig"
+  ],
+  "BoughtBy": [
+    "Oil Refinery"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Rice",
+  "Volume": "1",
+  "AvgPrice": "15",
+  "SoldBy": [
+    "Rice Farm"
+  ],
+  "BoughtBy": [
+    "Carbon Extractor",
+    "Food Bar Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Rocket",
+  "Volume": "4",
+  "AvgPrice": "11250",
+  "SoldBy": [
+    "Rocket Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Rubber",
+  "Volume": "1",
+  "AvgPrice": "686",
+  "SoldBy": [
+    "Rubber Factory"
+  ],
+  "BoughtBy": [
+    "Vehicle Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Satellite",
+  "Volume": "15",
+  "AvgPrice": "65714",
+  "SoldBy": [
+    "Satellite Factory"
+  ],
+  "BoughtBy": [
+    "Research Station"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Scrap Metal",
+  "Volume": "3",
+  "AvgPrice": "25",
+  "SoldBy": [
+    "Drill Factory",
+    "Drone Factory",
+    "Laser Compressor Factory",
+    "Mining Robot Factory",
+    "Satellite Factory",
+    "Scrap Metal Trader",
+    "Teleporter Factory",
+    "Vehicle Factory",
+    "War Robot Factory",
+    "Warhead Factory"
+  ],
+  "BoughtBy": [
+    "Steel Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Semi Conductor",
+  "Volume": "0.1",
+  "AvgPrice": "129",
+  "SoldBy": [
+    "Semi Conductor Manufacturer"
+  ],
+  "BoughtBy": [
+    "Computer Component Factory",
+    "Display Factory",
+    "Microchip Factory",
+    "Nanobot Factory",
+    "Processor Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Servo",
+  "Volume": "0.25",
+  "AvgPrice": "1387",
+  "SoldBy": [
+    "Servo Factory"
+  ],
+  "BoughtBy": [
+    "Anti-Grav Generator Factory",
+    "Laser Modulator Factory",
+    "Turbine Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Sheep",
+  "Volume": "1",
+  "AvgPrice": "130",
+  "SoldBy": [
+    "Sheep Ranch"
+  ],
+  "BoughtBy": [
+    "Fabric Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Silicium",
+  "Volume": "1",
+  "AvgPrice": "500",
+  "SoldBy": [
+    "Silicium Mine"
+  ],
+  "BoughtBy": [
+    "Semi Conductor Manufacturer",
+    "Solar Cell Factory",
+    "Transformator Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Silver",
+  "Volume": "0.5",
+  "AvgPrice": "300",
+  "SoldBy": [
+    "Noble Metal Mine"
+  ],
+  "BoughtBy": [
+    "Metal Plate Factory",
+    "Tools Factory",
+    "Transformator Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Slave",
+  "Volume": "1",
+  "AvgPrice": "15000",
+  "SoldBy": [],
+  "BoughtBy": [],
+  "Illegal": true,
+  "Dangerous": false 
+},
+{
+  "Name": "Solar Cell",
+  "Volume": "2",
+  "AvgPrice": "469",
+  "SoldBy": [
+    "Solar Cell Factory"
+  ],
+  "BoughtBy": [
+    "Solar Panel Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Solar Panel",
+  "Volume": "6",
+  "AvgPrice": "6858",
+  "SoldBy": [
+    "Solar Panel Factory"
+  ],
+  "BoughtBy": [
+    "Satellite Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Solvent",
+  "Volume": "1",
+  "AvgPrice": "402",
+  "SoldBy": [
+    "Chemicals Factory"
+  ],
+  "BoughtBy": [
+    "Fertilizer Factory",
+    "Paint Manufacturer"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Spices",
+  "Volume": "0.3",
+  "AvgPrice": "268",
+  "SoldBy": [
+    "Spices Farm"
+  ],
+  "BoughtBy": [
+    "Luxury Food Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Steel",
+  "Volume": "1",
+  "AvgPrice": "277",
+  "SoldBy": [
+    "Steel Factory"
+  ],
+  "BoughtBy": [
+    "Ammunition Factory",
+    "Ammunition S Factory",
+    "Conductor Factory",
+    "Drill Factory",
+    "Electro Magnet Factory",
+    "Energy Tube Factory",
+    "Explosive Charge Factory",
+    "Force Generator Factory",
+    "Fusion Generator Factory",
+    "Gun Factory",
+    "High Pressure Tube Factory",
+    "Metal Plate Factory",
+    "Plasma Cell Factory",
+    "Rocket Factory",
+    "Semi Conductor Manufacturer",
+    "Servo Factory",
+    "Steel Tube Factory",
+    "Tesla Coil Factory",
+    "Tools Factory",
+    "Transformator Factory",
+    "Turbine Factory",
+    "Wire Manufacturer"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Steel Tube",
+  "Volume": "3",
+  "AvgPrice": "704",
+  "SoldBy": [
+    "Steel Tube Factory"
+  ],
+  "BoughtBy": [
+    "Energy Tube Factory",
+    "High Pressure Tube Factory",
+    "Satellite Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Targeting Card",
+  "Volume": "0.5",
+  "AvgPrice": "11873",
+  "SoldBy": [
+    "Computer Component Factory",
+    "Targeting Card Factory"
+  ],
+  "BoughtBy": [
+    "Targeting System Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Targeting System",
+  "Volume": "0.75",
+  "AvgPrice": "29674",
+  "SoldBy": [
+    "Targeting System Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Tea",
+  "Volume": "0.2",
+  "AvgPrice": "37",
+  "SoldBy": [
+    "Tea Farm"
+  ],
+  "BoughtBy": [
+    "Habitat"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Teleporter",
+  "Volume": "12",
+  "AvgPrice": "39365",
+  "SoldBy": [
+    "Teleporter Factory"
+  ],
+  "BoughtBy": [
+    "Body Armor Factory",
+    "Mining Robot Factory",
+    "War Robot Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Tools",
+  "Volume": "0.4",
+  "AvgPrice": "214",
+  "SoldBy": [
+    "Tools Factory"
+  ],
+  "BoughtBy": [
+    "Equipment Dock"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Toxic Waste",
+  "Volume": "4",
+  "AvgPrice": "15",
+  "SoldBy": [
+    "Ammunition Factory",
+    "Fertilizer Factory",
+    "Fuel Factory",
+    "Fungus Farm",
+    "Laser Head Factory",
+    "Paint Manufacturer",
+    "Rubber Factory"
+  ],
+  "BoughtBy": [],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Transformator",
+  "Volume": "0.2",
+  "AvgPrice": "209",
+  "SoldBy": [
+    "Transformator Factory"
+  ],
+  "BoughtBy": [
+    "Electro Magnet Factory",
+    "Electromagnetic Charge Factory",
+    "Energy Container Factory",
+    "Energy Inverter Factory",
+    "Fusion Core Factory",
+    "Gauss Rail Factory",
+    "Laser Compressor Factory",
+    "Laser Modulator Factory",
+    "Power Unit Factory",
+    "Solar Panel Factory",
+    "Teleporter Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Turbine",
+  "Volume": "7.5",
+  "AvgPrice": "16729",
+  "SoldBy": [
+    "Turbine Factory"
+  ],
+  "BoughtBy": [
+    "Accelerator Factory",
+    "Research Station"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Vegetable",
+  "Volume": "1",
+  "AvgPrice": "32",
+  "SoldBy": [
+    "Vegetable Farm"
+  ],
+  "BoughtBy": [
+    "Food Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Vehicle",
+  "Volume": "25",
+  "AvgPrice": "77087",
+  "SoldBy": [
+    "Vehicle Factory"
+  ],
+  "BoughtBy": [
+    "Trading post",
+    "Military outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "War Robot",
+  "Volume": "8",
+  "AvgPrice": "92186",
+  "SoldBy": [
+    "War Robot Factory"
+  ],
+  "BoughtBy": [
+    "Military Outpost"
+  ],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Warhead",
+  "Volume": "3",
+  "AvgPrice": "5630",
+  "SoldBy": [
+    "Warhead Factory"
+  ],
+  "BoughtBy": [
+    "Rocket Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": true 
+},
+{
+  "Name": "Water",
+  "Volume": "1",
+  "AvgPrice": "20",
+  "SoldBy": [
+    "Ice Mine",
+    "Water Collector"
+  ],
+  "BoughtBy": [
+    "Brewery",
+    "Cattle Ranch",
+    "Chemicals Factory",
+    "Cocoa Farm",
+    "Coffee Farm",
+    "Corn Farm",
+    "Distillery",
+    "Fish Farm",
+    "Fruit Farm",
+    "Fungus Farm",
+    "Medical Supplies Factory",
+    "Paint Manufacturer",
+    "Paper Factory",
+    "Plant Farm",
+    "Potato Farm",
+    "Rice Farm",
+    "Sheep Ranch",
+    "Spices Farm",
+    "Tea Farm",
+    "Vegetable Farm",
+    "Wheat Farm",
+    "Wood Farm"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Wheat",
+  "Volume": "1",
+  "AvgPrice": "23",
+  "SoldBy": [
+    "Wheat Farm"
+  ],
+  "BoughtBy": [
+    "Brewery",
+    "Carbon Extractor",
+    "Cattle Ranch",
+    "Distillery",
+    "Fish Farm",
+    "Food Bar Factory",
+    "Food Factory",
+    "Luxury Food Factory",
+    "Sheep Ranch"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Wine",
+  "Volume": "0.5",
+  "AvgPrice": "182",
+  "SoldBy": [
+    "Wine Factory"
+  ],
+  "BoughtBy": [
+    "Luxury Food Factory",
+    "Habitat"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Wire",
+  "Volume": "0.5",
+  "AvgPrice": "95",
+  "SoldBy": [
+    "Wire Manufacturer"
+  ],
+  "BoughtBy": [
+    "Anti-Grav Generator Factory",
+    "Computation Mainframe Factory",
+    "Computer Component Factory",
+    "Laser Compressor Factory",
+    "Microchip Factory",
+    "Targeting System Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Wood",
+  "Volume": "2.5",
+  "AvgPrice": "350",
+  "SoldBy": [
+    "Wood Farm"
+  ],
+  "BoughtBy": [
+    "Paper Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+},
+{
+  "Name": "Zinc",
+  "Volume": "1",
+  "AvgPrice": "250",
+  "SoldBy": [
+    "Zinc Mine"
+  ],
+  "BoughtBy": [
+    "Conductor Factory",
+    "Medical Supplies Factory",
+    "Solar Cell Factory"
+  ],
+  "Illegal": false,
+  "Dangerous": false 
+}]
