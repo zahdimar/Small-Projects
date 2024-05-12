@@ -1,0 +1,1620 @@
+[ 
+   {"factory":"Aluminium Mine",
+      "price": "(12,000 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Aluminium"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Coal Mine",
+      "price": "(6,600 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Coal"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Copper Mine",
+      "price": "(10,875 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Copper"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Ice Mine",
+      "price": "(9,750 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Water"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Lead Mine",
+      "price": "(12,000 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Lead"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Noble Metal Mine (type 1)",
+      "price": "(9,075 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Gold",
+           "Platinum"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Noble Metal Mine (type 2)",
+      "price": "(7,725 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Silver",
+           "Platinum"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Noble Metal Mine (type 3)",
+      "price": "(7,050 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Silver",
+           "Gold"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Noble Metal Mine (type 4)",
+      "price": "(7,050 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Silver",
+           "Gold"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Noble Metal Mine (type 5)",
+      "price": "7,050 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Silver",
+           "Gold"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Ore Mine",
+      "price": "(12,450 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Ore"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Silicium Mine",
+      "price": "(12,000 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Silicium"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Zinc Mine",
+      "price": "(14,250 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Zinc"
+        ],
+        "requre":[  ]
+     },
+  {"factory":"Oil Rig",
+      "price": "(6,375 Cr)",
+        "type":"mine",
+        "production":[ 
+           "Raw Oil"
+        ],
+        "requre":[  ]
+     },  
+   { 
+      "factory":"Crystal Farm",
+    "price": "(11,550,000 Cr)",
+      "type":"basic",
+      "production":[ 
+         "Crystal"
+      ],
+      "requre":[ ]
+   },
+   { 
+    "factory":"Helium, Hydrogen, Chlorine, Fluorine",
+    "price": "(12,315,000 Cr)",
+    "type":"basic",
+    "production":[ "Helium", "Hydrogen", "Chlorine", "Fluorine" ],
+    "requre":[ ]
+},
+      { 
+    "factory":"Helium, Hydrogen, Neon, Chlorine",
+    "price": "(10,425,000 Cr)",
+    "type":"basic",
+    "production":[ "Helium", "Hydrogen", "Neon", "Chlorine" ],
+    "requre":[ ]
+},
+      { 
+    "factory":"Helium, Nitrogen, Neon, Chlorine, Fluorine",
+    "price": "(11,100,000 Cr)",
+    "type":"basic",
+    "production":[ "Helium", "Nitrogen", "Neon", "Chlorine", "Fluorine" ],
+    "requre":[ ]
+},
+      { 
+    "factory":"Oxygen, Hydrogen, Nitrogen",
+    "price": "(12,720,000 Cr)",
+    "type":"basic",
+    "production":[ "Oxygen", "Hydrogen", "Nitrogen" ],
+    "requre":[ ]
+},
+   { 
+      "factory":"Mineral Extractor",
+    "price": "(12,000,000 Cr)",
+      "type":"basic",
+      "production":[ 
+         "Mineral"
+      ],
+      "requre":[ ]
+   },
+   { 
+      "factory":"Plankton Collector",
+    "price": "(10,875,000 Cr)",
+      "type":"basic",
+      "production":[ 
+         "Plankton"
+      ],
+      "requre":[ ]
+   },
+   { 
+      "factory":"Scrap Metal Trader",
+    "price": "(9,750,000 Cr)",
+      "type":"basic",
+      "production":[ 
+         "Scrap Metal"
+      ],
+      "requre":[ ]
+   },
+   { 
+      "factory":"Solar Power Plant",
+    "price": "(12,000,000 Cr)",
+      "type":"basic",
+      "production":[ 
+         "Energy Cell"
+      ],
+      "requre":[ ]
+   },
+   { 
+      "factory":"Water Collector",
+    "price": "(9,750,000 Cr)",
+      "type":"basic",
+      "production":[ 
+         "Water"
+      ],
+      "requre":[ ]
+   },
+   { 
+      "factory":"Book Factory",
+    "price": "(3,396,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Books"
+      ],
+      "requre":[ 
+         "Paper",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Carbon Extractor Type 1",
+    "price": "(3,486,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Carbon"
+      ],
+      "requre":[ 
+         "Rice"
+      ]
+   },
+   { 
+      "factory":"Carbon Extractor Type 2",
+    "price": "(3,517,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Carbon"
+      ],
+      "requre":[ 
+         "Wheat"
+      ]
+   },
+   { 
+      "factory":"Carbon Extractor Type 3",
+    "price": "(3,639,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Carbon"
+      ],
+      "requre":[ 
+         "Potato"
+      ]
+   },
+   { 
+      "factory":"Carbon Extractor Type 4",
+    "price": "(3,319,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Carbon"
+      ],
+      "requre":[ 
+         "Corn"
+      ]
+   },
+   { 
+      "factory":"Cattle Ranch Type 1",
+    "price": "(7,351,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Cattle",
+         "Bio Gas"
+      ],
+      "requre":[ 
+         "Corn",
+         "Oxygen",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Cattle Ranch Type 2",
+    "price": "(9,592,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Cattle"
+      ],
+      "requre":[ 
+         "Wheat",
+         "Oxygen",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Chemicals Factory",
+    "price": "(7,176,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Chemicals",
+         "Adhesive",
+         "Coolant",
+         "Solvent",
+         "Acid"
+      ],
+      "requre":[ 
+         "Water",
+         "Nitrogen",
+         "Hydrogen",
+         "Oxygen",
+         "Bio Gas",
+         "Carbon",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Corn Farm",
+    "price": "(3,594,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Corn"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Dairy Factory",
+    "price": "(3,391,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Dairy",
+         "Leather"
+      ],
+      "requre":[ 
+         "Cattle"
+      ]
+   },
+   { 
+      "factory":"Distillery",
+    "price": "(20,550,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Liquor"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Wheat",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Fertilizer Factory Type 1",
+    "price": "(5,137,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Fertilizer"
+      ],
+      "requre":[ 
+         "Chemicals",
+         "Mineral",
+         "Energy Cell",
+         "Solvent"
+      ]
+   },
+   { 
+      "factory":"Fertilizer Factory Type 2",
+    "price": "(23,745,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Fertilizer"
+      ],
+      "requre":[ 
+         "Plankton",
+         "Mineral",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Fabric Factory",
+    "price": "(3,288,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Fabric"
+      ],
+      "requre":[ 
+         "Sheep"
+      ]
+   },
+   { 
+      "factory":"Food Bar Factory",
+    "price": "(8,085,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Food Bar"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Wheat",
+         "Corn",
+         "Rice"
+      ]
+   },
+   { 
+      "factory":"Fuel Factory",
+    "price": "(4,584,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Fuel"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Oil",
+         "Nitrogen",
+         "Fluorine"
+      ]
+   },
+   { 
+      "factory":"Fruit Farm",
+    "price": "(3,855,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Fruit"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Fungus Farm",
+    "price": "(4,408,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Fungus"
+      ],
+      "requre":[ 
+         "Bio Gas",
+         "Water",
+         "Mineral"
+      ]
+   },
+   { 
+      "factory":"Fish Farm",
+    "price": "(4,786,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Fish",
+         "Bio Gas"
+      ],
+      "requre":[ 
+         "Water",
+         "Wheat",
+         "Oxygen"
+      ]
+   },
+   { 
+      "factory":"Glass Manufacturer",
+    "price": "(3,468,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Glass"
+      ],
+      "requre":[ 
+         "Ore",
+         "Crystal"
+      ]
+   },
+   { 
+      "factory":"High Capacity Lens Factory",
+    "price": "(9,358,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "High Capacity Lens"
+      ],
+      "requre":[ 
+         "Glass",
+         "Carbon",
+         "Plastic",
+         "Diamond"
+      ]
+   },
+   { 
+      "factory":"Jewelry Manufacturer Type 1",
+    "price": "(18,030,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Jewelry"
+      ],
+      "requre":[ 
+         "Platinum",
+         "Gem"
+      ]
+   },
+   { 
+      "factory":"Jewelry Manufacturer Type 2",
+    "price": "(10,830,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Jewelry"
+      ],
+      "requre":[ 
+         "Gold",
+         "Diamond"
+      ]
+   },
+   { 
+      "factory":"Jewelry Manufacturer Type 3",
+    "price": "(18,030,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Jewelry"
+      ],
+      "requre":[ 
+         "Platinum",
+         "Gem"
+      ]
+   },
+   { 
+      "factory":"Meat Factory",
+    "price": "(3,324,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Meat",
+         "Leather"
+      ],
+      "requre":[ 
+         "Cattle"
+      ]
+   },
+   { 
+      "factory":"Oil Refinery",
+    "price": "(3,630,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Oil"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Raw Oil"
+      ]
+   },
+   { 
+      "factory":"Paper Factory",
+    "price": "(4,732,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Paper"
+      ],
+      "requre":[ 
+         "Wood",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Plastic Manufacturer",
+    "price": "(3,652,500 Cr)",
+      "type":"low",
+      "production":[ 
+         "Plastic"
+      ],
+      "requre":[ 
+         "Oil",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Plant Farm",
+    "price": "(3,045,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Plant"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Potato Farm",
+    "price": "(3,000,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Potato"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Rice Farm",
+    "price": "(3,315,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Rice"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Rubber Factory",
+    "price": "(5,421,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Rubber"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Oil"
+      ]
+   },
+   { 
+      "factory":"Solar Cell Factory",
+    "price": "(8,805,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Solar Cell"
+      ],
+      "requre":[ 
+         "Zinc",
+         "Silicium",
+         "Platinum",
+         "Gold",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Sheep Ranch Type 1",
+    "price": "(10,119,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Sheep",
+         "Bio Gas"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Oxygen",
+         "Wheat",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Sheep Ranch Type 2",
+    "price": "(6,789,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Sheep",
+         "Bio Gas"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Corn",
+         "Oxygen",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Steel Factory Type 1",
+    "price": "(6,924,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Steel"
+      ],
+      "requre":[ 
+         "Scrap Metal",
+         "Coal"
+      ]
+   },
+   { 
+      "factory":"Steel Factory Type 2",
+    "price": "(4,629,00 Cr)",
+      "type":"low",
+      "production":[ 
+         "Steel"
+      ],
+      "requre":[ 
+         "Ore",
+         "Coal",
+         "Carbon"
+      ]
+   },
+   { 
+      "factory":"TeaFarm",
+    "price": "(4,170,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Tea"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Vegetable Farm",
+    "price": "(3,315,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Vegetable"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Wheat Farm",
+    "price": "(3,315,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Wheat"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Wood Farm",
+    "price": "(4,125,000 Cr)",
+      "type":"low",
+      "production":[ 
+         "Wood"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water"
+      ]
+   },
+   { 
+      "factory":"Ammunition Factory Type 1 & 2",
+    "price": "(16,815,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Ammunition S",
+         "Ammunition M",
+         "Ammunition L"
+      ],
+      "requre":[ 
+         "Lead",
+         "Aluminium",
+         "Steel",
+         "Adhesive",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Ammunition Factory Type 3",
+    "price": "(25,054,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Ammunition"
+      ],
+      "requre":[ 
+         "Steel",
+         "Chemicals",
+         "Paint"
+      ]
+   },
+   { 
+      "factory":"Brewery",
+    "price": "(15,105,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Beer"
+      ],
+      "requre":[ 
+         "Water",
+         "Wheat",
+         "Fungus"
+      ]
+   },
+   { 
+      "factory":"Clothes Factory",
+    "price": "(3,045,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Clothes"
+      ],
+      "requre":[ 
+         "Fabric"
+      ]
+   },
+   { 
+      "factory":"CocoaFarm",
+    "price": "(6,636,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Cocoa"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water",
+         "Fertilizer"
+      ]
+   },
+   { 
+      "factory":"Coffee Farm",
+    "price": "(6,906,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Coffee"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water",
+         "Fertilizer"
+      ]
+   },
+   { 
+      "factory":"Computer Component Factory",
+    "price": "(44,580,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Display",
+         "Targeting Card",
+         "Processor"
+      ],
+      "requre":[ 
+         "Wire",
+         "Microchip",
+         "Semi Conductor",
+         "Copper",
+         "Platinum",
+         "Gold"
+      ]
+   },
+   { 
+      "factory":"Conductor Factory",
+    "price": "(6,699,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Conductor"
+      ],
+      "requre":[ 
+         "Zinc",
+         "Platinum",
+         "Gold",
+         "Steel",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Drone Factory",
+    "price": "(15,555,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Drone"
+      ],
+      "requre":[ 
+         "Fuel",
+         "PlasmaCell",
+         "Metal Plate"
+      ]
+   },
+   { 
+      "factory":"Display Factory",
+    "price": "(110,361,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Display"
+      ],
+      "requre":[ 
+         "Glass",
+         "Microchip",
+         "Semi Conductor",
+         "PlasmaCell"
+      ]
+   },
+   { 
+      "factory":"Electro Magnet Factory",
+    "price": "(5,101,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Electro Magnet"
+      ],
+      "requre":[ 
+         "Steel",
+         "Copper",
+         "Conductor",
+         "Transformator"
+      ]
+   },
+   { 
+      "factory":"Electromagnetic Charge Factory",
+    "price": "(35,049,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Electromagnetic Charge"
+      ],
+      "requre":[ 
+         "Energy Container",
+         "Electro Magnet",
+         "Energy Tube",
+         "Transformator"
+      ]
+   },
+   { 
+      "factory":"Energy Container Factory",
+    "price": "(4,215,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Energy Container"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Transformator"
+      ]
+   },
+   { 
+      "factory":"Energy Generator Factory",
+    "price": "(18,057,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Energy Generator"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Microchip",
+         "Conductor"
+      ]
+   },
+   { 
+      "factory":"Energy Inverter Factory",
+    "price": "(9,151,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Energy Inverter"
+      ],
+      "requre":[ 
+         "Energy Tube",
+         "Conductor",
+         "Transformator"
+      ]
+   },
+   { 
+      "factory":"Energy Tube Factory",
+    "price": "(6,325,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Energy Tube"
+      ],
+      "requre":[ 
+         "Plastic",
+         "Steel",
+         "Platinum",
+         "Neon",
+         "Steel",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Explosive Charge Factory",
+    "price": "(9,637,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Explosive Charge"
+      ],
+      "requre":[ 
+         "Fluorine",
+         "Steel",
+         "Energy Cell",
+         "Plastic",
+         "Chemicals",
+         "Acid",
+         "Adhesive"
+      ]
+   },
+   { 
+      "factory":"Food Factory",
+    "price": "(8,130,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Food"
+      ],
+      "requre":[ 
+         "Wheat",
+         "Meat",
+         "Corn",
+         "Vegetable"
+      ]
+   },
+   { 
+      "factory":"Fusion Core Factory",
+    "price": "(15,465,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Fusion Core"
+      ],
+      "requre":[ 
+         "Hydrogen",
+         "Gold",
+         "PlasmaCell",
+         "Transformator",
+         "Energy Tube"
+      ]
+   },
+   { 
+      "factory":"Gauss Rail Factory",
+    "price": "(22,111,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Gauss Rail"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Electro Magnet",
+         "Energy Tube",
+         "High Pressure Tube",
+         "Transformator"
+      ]
+   },
+   { 
+      "factory":"Gun Factory",
+    "price": "(10,078,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Gun"
+      ],
+      "requre":[ 
+         "Steel",
+         "Ammunition",
+         "Aluminium",
+         "Plastic"
+      ]
+   },
+   { 
+      "factory":"High Pressure Tube Factory",
+    "price": "(8,089,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "High Pressure Tube"
+      ],
+      "requre":[ 
+         "Steel",
+         "Aluminium",
+         "Carbon",
+         "Adhesive",
+         "Steel"
+      ]
+   },
+   { 
+      "factory":"Laser Compressor Factory",
+    "price": "(10,794,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Laser Compressor"
+      ],
+      "requre":[ 
+         "PlasmaCell",
+         "Transformator",
+         "Energy Tube",
+         "Wire"
+      ]
+   },
+   { 
+      "factory":"Laser Head Factory",
+    "price": "(9,102,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Laser Head"
+      ],
+      "requre":[ 
+         "Glass",
+         "Conductor",
+         "Aluminium",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Laser Modulator Factory",
+    "price": "(21,391,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Laser Modulator"
+      ],
+      "requre":[ 
+         "Servo",
+         "Energy Tube",
+         "Transformator",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Luxury Food Factory",
+    "price": "(16,594,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Luxury Food"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Wheat",
+         "Fruit",
+         "Spices",
+         "Wine"
+      ]
+   },
+   { 
+      "factory":"Nanobot Factory",
+    "price": "(11,280,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Nanobot"
+      ],
+      "requre":[ 
+         "Crystal",
+         "Semi Conductor"
+      ]
+   },
+   { 
+      "factory":"Medical Supplies Factory",
+    "price": "(16,680,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Medical Supplies"
+      ],
+      "requre":[ 
+         "Water",
+         "Chemicals",
+         "Fabric",
+         "Zinc",
+         "Chlorine"
+      ]
+   },
+   { 
+      "factory":"Metal Plate Factory",
+    "price": "(4,404,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Metal Plate"
+      ],
+      "requre":[ 
+         "Steel",
+         "Silver"
+      ]
+   },
+   { 
+      "factory":"Microchip Factory",
+    "price": "(3,553,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Microchip"
+      ],
+      "requre":[ 
+         "Wire",
+         "Semi Conductor",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Rocket Factory",
+    "price": "(18,561,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Rocket"
+      ],
+      "requre":[ 
+         "Warhead",
+         "Fuel",
+         "Steel",
+         "Microchip"
+      ]
+   },
+   { 
+      "factory":"Paint Manufacturer",
+    "price": "(5,880,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Paint"
+      ],
+      "requre":[ 
+         "Oil",
+         "Water",
+         "Chemicals",
+         "Solvent",
+         "Acid"
+      ]
+   },
+   { 
+      "factory":"PlasmaCell Factory",
+    "price": "(4,930,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "PlasmaCell"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Steel",
+         "Bio Gas",
+         "Neon",
+         "Helium"
+      ]
+   },
+   { 
+      "factory":"Power Unit Factory",
+    "price": "(4,350,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Power Unit"
+      ],
+      "requre":[ 
+         "Transformator",
+         "Energy Cell",
+         "PlasmaCell"
+      ]
+   },
+   { 
+      "factory":"Processor Factory",
+    "price": "(249,838,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Processor"
+      ],
+      "requre":[ 
+         "Microchip",
+         "Semi Conductor",
+         "Copper",
+         "Platinum",
+         "Gold"
+      ]
+   },
+   { 
+      "factory":"Protein Factory",
+    "price": "(3,049,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Protein"
+      ],
+      "requre":[ 
+         "Meat",
+         "Dairy"
+      ]
+   },
+   { 
+      "factory":"Semi Conductor Manufacturer",
+    "price": "(5,074,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Semi Conductor"
+      ],
+      "requre":[ 
+         "Steel",
+         "Silicium",
+         "Gold",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Servo Factory",
+    "price": "(5,659,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Servo"
+      ],
+      "requre":[ 
+         "Steel",
+         "Aluminium",
+         "Conductor",
+         "Plastic"
+      ]
+   },
+   { 
+      "factory":"Solar Panel Factory",
+    "price": "(11,575,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Solar Panel"
+      ],
+      "requre":[ 
+         "Solar Cell",
+         "Transformator"
+      ]
+   },
+   { 
+      "factory":"Spices Farm",
+    "price": "(10,256,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Spices"
+      ],
+      "requre":[ 
+         "Energy Cell",
+         "Water",
+         "Fertilizer"
+      ]
+   },
+   { 
+      "factory":"Steel Tube Factory",
+    "price": "(4,872,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Steel Tube"
+      ],
+      "requre":[ 
+         "Steel",
+         "Aluminium"
+      ]
+   },
+   { 
+      "factory":"Targeting Card Factory",
+    "price": "(29,289,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Targeting Card"
+      ],
+      "requre":[ 
+         "Microchip",
+         "Copper",
+         "Processor"
+      ]
+   },
+   { 
+      "factory":"Tool Factory",
+    "price": "(5,299,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Tools"
+      ],
+      "requre":[ 
+         "Steel",
+         "Platinum",
+         "Silver",
+         "Aluminium",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Transformator Factory",
+    "price": "(5,047,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Transformator"
+      ],
+      "requre":[ 
+         "Steel",
+         "Plastic",
+         "Silicium",
+         "Silver",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Turbine Factory",
+    "price": "(19,060,500 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Turbine"
+      ],
+      "requre":[ 
+         "Servo",
+         "Steel",
+         "Coolant",
+         "Power Unit"
+      ]
+   },
+   { 
+      "factory":"Warhead Factory",
+    "price": "(11,532,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Warhead"
+      ],
+      "requre":[ 
+         "Conductor",
+         "Chemicals",
+         "Metal Plate"
+      ]
+   },
+   { 
+      "factory":"Wine Factory",
+    "price": "(11,370,00 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Wine"
+      ],
+      "requre":[ 
+         "Fruit",
+         "Fungus"
+      ]
+   },
+   { 
+      "factory":"Wire Manufacturer",
+    "price": "(4,638,000 Cr)",
+      "type":"advanced",
+      "production":[ 
+         "Wire"
+      ],
+      "requre":[ 
+         "Plastic",
+         "Steel",
+         "Gold"
+      ]
+   },
+   { 
+      "factory":"Accelerator Factory",
+    "price": "(438,550,500 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Neutron Accelerator",
+         "Proton Accelerator",
+         "Electron Accelerator"
+      ],
+      "requre":[ 
+         "Turbine",
+         "PlasmaCell",
+         "Fusion Generator",
+         "Energy Tube",
+         "High Pressure Tube",
+         "Conductor",
+         "Gauss Rail"
+      ]
+   },
+   { 
+      "factory":"Anti-Grav Generator Factory",
+    "price": "(77,529,000 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Anti-Grav Generator"
+      ],
+      "requre":[ 
+         "Electro Magnet",
+         "Servo",
+         "Wire",
+         "Antigrav Unit",
+         "Energy Generator"
+      ]
+   },
+   { 
+    "factory":"Antigrav Unit Factory",
+    "price": "(31,120,500 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Antigrav Unit"
+      ],
+      "requre":[ 
+         "Power Unit",
+         "Processor",
+         "Energy Cell"
+      ]
+   },
+   { 
+      "factory":"Body Armor Factory",
+    "price": "(112,337,000 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Body Armor"
+      ],
+      "requre":[ 
+         "Metal Plate",
+         "Coolant",
+         "Teleporter",
+         "Antigrav Unit",
+         "Carbon",
+         "Nanobot"
+      ]
+   },
+   { 
+      "factory":"Computation Mainframe Factory",
+    "price": "(45,061,500 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Computation Mainframe"
+      ],
+      "requre":[ 
+         "Processor",
+         "Power Unit",
+         "Microchip",
+         "Display",
+         "Wire"
+      ]
+   },
+   { 
+      "factory":"Drill Factory",
+    "price": "(39,693,000 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Drill"
+      ],
+      "requre":[ 
+         "Laser Head",
+         "Processor",
+         "Steel",
+         "Diamond"
+      ]
+   },
+   { 
+      "factory":"Force Generator Factory",
+    "price": "(55,681,500 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Force Generator"
+      ],
+      "requre":[ 
+         "Electro Magnet",
+         "Steel",
+         "Plastic",
+         "Nanobot",
+         "Energy Generator"
+      ]
+   },
+   { 
+      "factory":"Fusion Generator Factory",
+    "price": "(48,612,000 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Fusion Generator"
+      ],
+      "requre":[ 
+         "Fusion Core",
+         "Steel",
+         "PlasmaCell",
+         "Power Unit"
+      ]
+   },
+   { 
+      "factory":"Mining Robot Factory",
+    "price": "(206,980,500 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Mining Robot"
+      ],
+      "requre":[ 
+         "Power Unit",
+         "Processor",
+         "Display",
+         "Nanobot",
+         "Drill",
+         "Coolant",
+         "Teleporter"
+      ]
+   },
+   { 
+      "factory":"Satellite Factory",
+    "price": "(79,653,000 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Satellite"
+      ],
+      "requre":[ 
+         "Solar Panel",
+         "Processor",
+         "Display",
+         "Energy Container",
+         "Steel Tube"
+      ]
+   },
+   { 
+      "factory":"Targeting System Factory",
+    "price": "(36,057,000 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Targeting System"
+      ],
+      "requre":[ 
+         "Targeting Card",
+         "Processor",
+         "Energy Cell",
+         "Conductor",
+         "Wire"
+      ]
+   },
+   { 
+      "factory":"Teleporter Factory",
+    "price": "(47,667,000 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Teleporter"
+      ],
+      "requre":[ 
+         "Metal Plate",
+         "Power Unit",
+         "Antigrav Unit",
+         "PlasmaCell",
+         "Conductor",
+         "Transformator"
+      ]
+   },
+   { 
+      "factory":"TeslaCoil Factory",
+    "price": "(26,458,500 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Military TeslaCoil",
+         "Industrial TeslaCoil"
+      ],
+      "requre":[ 
+         "Steel",
+         "Copper",
+         "Fusion Core",
+         "Plastic"
+      ]
+   },
+   { 
+      "factory":"Vehicle Factory",
+    "price": "(89,611,500 Cr)",
+      "type":"hight",
+      "production":[ 
+         "Vehicle"
+      ],
+      "requre":[ 
+         "Rubber",
+         "Power Unit",
+         "Energy Generator",
+         "Metal Plate",
+         "Antigrav Unit",
+         "Display"
+      ]
+   },
+   { 
+      "factory":"War Robot Factory",
+    "price": "(108,210,000 Cr)",
+      "type":"hight",
+      "production":[ 
+         "War Robot"
+      ],
+      "requre":[ 
+         "Power Unit",
+         "Processor",
+         "Display",
+         "Nanobot",
+         "Gun",
+         "Teleporter",
+         "Coolant"
+      ]
+   }
+]
