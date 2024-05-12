@@ -15,7 +15,7 @@ class Character:
         target.protect(attack_power)
 
     def protect(self, damage: int):
-        defence_value = self.get_defence()
+        defence_value = self.get_defence
         effective_damage = damage * (1 - (defence_value / 100))
         self.health -= effective_damage
 
@@ -26,13 +26,16 @@ class Character:
     def die(self):
         print(f"Персонаж {self.name} умер")
 
-    def health_percentage(self):
-        return self.health / self.base_health
+    @property
+    def health_percentage(self) -> int:
+        return (self.health / self.base_health) * 100
     
-    def get_defence(self):
+    @property
+    def get_defence(self) -> int:
         return self.defence
 
-    def get_attack_power(self):
+    @property
+    def get_attack_power(self) -> int:
         return self.attack_power
 
 
@@ -41,8 +44,8 @@ class Elf(Character):
         super().__init__(name="Elf", health=50, defence=10, attack_power=15)
     
     def attack(self, target: Character):
-        attack_power = super().get_attack_power()
-        if super().health_percentage() < 0.3:
+        attack_power = super().get_attack_power
+        if super().health_percentage < 0.3:
             attack_power *= 2
         super().attack_with_power(target, attack_power)
         
@@ -51,7 +54,8 @@ class Ork(Character):
     def __init__(self):
         super().__init__(name="Ork", health=100, defence=10, attack_power=10)
     
-    def get_defence(self):
+    @property
+    def get_defence(self) -> int:
         return self.defence * 3 if self.health < 50 else self.defence
 
 def do_battle(char_1: "Character", char_2: "Character"):
