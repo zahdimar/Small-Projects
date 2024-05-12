@@ -11,35 +11,30 @@ class Solution:
         
         result = []
         for i in range(numRows):
-            result.append(list(" " * (int(len(s)/2))))
+            result.append("")
 
         # current char position
         i_row = 0
-        i_column = 0
 
         #direction
         is_from_top_to_down = True
         
         i = 0
         for i in range(len(s)):
-            result[i_row][i_column] = s[i]
+            result[i_row] += (s[i])
 
-            if (is_from_top_to_down and i_row < numRows - 1):
-                i_row += 1
-                continue
-            else:
+            if (is_from_top_to_down and i_row == numRows - 1):
                 is_from_top_to_down = False
             
-            if (not is_from_top_to_down and i_row > 0):
-                i_row -= 1
-                i_column += 1
-            else:
+            if (not is_from_top_to_down and i_row == 0):
                 is_from_top_to_down = True
-                i_row += 1
+
+            i_row += 1 if  is_from_top_to_down else -1
+
 
         result_string = ""
         for line in result:
-            result_string += ''.join(filter(lambda x: x != ' ', line))
+            result_string += ''.join(line)
                                      
         return result_string    
 
