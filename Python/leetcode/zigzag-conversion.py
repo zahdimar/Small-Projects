@@ -1,10 +1,28 @@
 # https://leetcode.com/problems/zigzag-conversion
-# движение вниз - только столбец
-# движение вбок - по диагонали
+# Более изящное решние, которое работает медленней...
 import math
 import unittest
 
 class Solution:
+    def get_triangle(self, n:int)-> list[int]:
+        length = 2 * n - 1
+        result = [None] * length
+        middle = n - 1
+        result[middle] = middle
+        i = 1
+        while i < n:
+            result[middle-i] = result[middle+i] = n - 1 - i
+            i += 1
+
+        return result
+
+    def calc_index(self, *, triange: list[int], rows_num: int, index: int) -> int:
+        if rows_num == 2:
+            return index % rows_num
+        sequence_length = 2 * rows_num - 2
+        effective_index = index % sequence_length
+        return triange[effective_index]
+
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1:
             return s
@@ -13,30 +31,18 @@ class Solution:
         for i in range(numRows):
             result.append("")
 
-        # current char position
-        i_row = 0
-
-        #direction
-        is_from_top_to_down = True
+        triangle = self.get_triangle(numRows)
         
-        i = 0
         for i in range(len(s)):
-            result[i_row] += (s[i])
-
-            if (is_from_top_to_down and i_row == numRows - 1):
-                is_from_top_to_down = False
-            
-            if (not is_from_top_to_down and i_row == 0):
-                is_from_top_to_down = True
-
-            i_row += 1 if  is_from_top_to_down else -1
-
+            index = self.calc_index(triange=triangle, rows_num=numRows, index=i)
+            result[index] += (s[i])
 
         result_string = ""
         for line in result:
             result_string += ''.join(line)
                                      
         return result_string    
+    
 
 class TestStringMethods(unittest.TestCase):
     def test_single_letter(self):
