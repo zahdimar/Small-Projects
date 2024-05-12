@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/median-of-two-sorted-arrays
+# solution doesn't match rule O(log (m+n))
 import unittest
 
 class Solution:
