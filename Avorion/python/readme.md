@@ -1,0 +1,1 @@
+Make graph of all factories and production for understanding what is needs for what
