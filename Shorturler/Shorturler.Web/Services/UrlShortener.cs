@@ -1,14 +1,18 @@
+using Shorturler.Database;
+
 namespace Shorturler.Services;
 
-public class UrlShortener: IUrlShortener
+public class UrlShortener(ShortUrlRepository urlRepository) : IUrlShortener
 {
+
     public async Task<Guid> GetTokenOrCreate(string url)
     {
-        return await Task.FromResult(Guid.NewGuid());
+        var result = await urlRepository.SaveShortUrlAsync(url);
+        return result.Id;
     }
 
     public async Task<string> GetFullUrl(Guid token)
     {
-        return await Task.FromResult(token.ToString());
+        return await urlRepository.GetFullUrlByIdAsync(token);
     }
 }

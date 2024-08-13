@@ -1,7 +1,12 @@
 using Shorturler;
 using Shorturler.Services;
+using Shorturler.Database;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+DbContextFactory.RegisterDbContext(builder.Services, builder.Configuration.GetConnectionString("database"));
+
 
 builder.Services.AddScoped<ShortRequestHandler>();
 builder.Services.AddScoped<IUrlShortener, UrlShortener>();
