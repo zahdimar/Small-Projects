@@ -5,23 +5,21 @@ namespace Shorturler.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class ShortController : Controller
+public class ShortController(ShortRequestHandler requestHandler) : Controller
 {
-    private const string Host = "http://localhost:5203/short/";
-    
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public ActionResult<string> Create([FromBody] string url)
+    public async Task<string> Create([FromBody] string url)
     {
-        return $"{Host}{Guid.NewGuid()}";
+        return await requestHandler.GetShortUrl(url);
     }
     
-    [HttpGet("{url}")]
+    [HttpGet("{token}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public ActionResult<string> Get(string url)
+    public async Task<string> Get(Guid token)
     {
-        return url;
+        return await requestHandler.GetFullUrlByToken(token);
     }
 }
