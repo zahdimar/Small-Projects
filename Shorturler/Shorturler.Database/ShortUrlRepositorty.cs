@@ -5,6 +5,12 @@ namespace Shorturler.Database;
 
 public class ShortUrlRepository(ShorturlerDbContext context)
 {
+    public async Task<Guid?> GetIdByUrl(string fullUrl)
+    {
+        var existed = await context.ShortUrls.FirstOrDefaultAsync(s => s.FullUrl == fullUrl);
+        return existed?.Id;
+    }
+    
     public async Task<ShortUrl> SaveShortUrlAsync(string fullUrl)
     {
         var shortUrl = new ShortUrl
