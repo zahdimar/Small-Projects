@@ -1,8 +1,10 @@
 using Shorturler;
+using Shorturler.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<ShortRequestHandler>();
+builder.Services.AddScoped<IUrlShortener, UrlShortener>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

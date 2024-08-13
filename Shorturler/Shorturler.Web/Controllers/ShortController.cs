@@ -12,7 +12,7 @@ public class ShortController(ShortRequestHandler requestHandler) : Controller
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<string> Create([FromBody] string url)
     {
-        return await requestHandler.GetShortUrl(url);
+        return await requestHandler.GetShortUrlAsync(url);
     }
     
     [HttpGet("{token}")]
@@ -20,6 +20,6 @@ public class ShortController(ShortRequestHandler requestHandler) : Controller
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<string> Get(Guid token)
     {
-        return await requestHandler.GetFullUrlByToken(token);
+        return await requestHandler.GetFullUrlByTokenAsync(token);
     }
 }
