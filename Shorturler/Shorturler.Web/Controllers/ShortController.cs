@@ -18,8 +18,17 @@ public class ShortController(ShortRequestHandler requestHandler) : Controller
     [HttpGet("{token}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<string> Get(Guid token)
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> Get(Guid token)
     {
-        return await requestHandler.GetFullUrlByTokenAsync(token);
+        var fullUrl = await requestHandler.GetFullUrlByTokenAsync(token);
+
+        if (string.IsNullOrEmpty(fullUrl))
+        {
+            return NotFound(); // Return 404 if the URL is not found
+        }
+
+        // Redirect to the full URL
+        return Redirect(fullUrl);
     }
 }
