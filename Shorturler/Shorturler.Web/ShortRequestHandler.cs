@@ -4,16 +4,29 @@ namespace Shorturler;
 
 public class ShortRequestHandler(IUrlShortener urlShortener)
 {
+    //todo: load from settings
     private const string Host = "http://localhost:5203/short/";
 
-    public async Task<string> GetShortUrlAsync(string url)
+    /// <summary>
+    /// Lookup or create short URL 
+    /// </summary>
+    /// <param name="url"></param>
+    /// <param name="ct"></param>
+    /// <returns>Short url</returns>
+    public async Task<string> GetShortUrlAsync(string url, CancellationToken ct)
     {
-        var id = await urlShortener.GetTokenOrCreate(url);
+        var id = await urlShortener.GetTokenOrCreateAsync(url, ct);
         return $"{Host}{id}";
     }
     
-    public async Task<string> GetFullUrlByTokenAsync(Guid token)
+    /// <summary>
+    /// Lookup for full url by token
+    /// </summary>
+    /// <param name="token"></param>
+    /// <param name="ct"></param>
+    /// <returns>full url</returns>
+    public async Task<string> GetFullUrlByTokenAsync(Guid token, CancellationToken ct)
     {
-        return await urlShortener.GetFullUrl(token);
+        return await urlShortener.GetFullUrlAsync(token, ct);
     }
 }
